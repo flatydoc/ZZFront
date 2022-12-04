@@ -1,4 +1,15 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import router from "./router";
+import PrimeVue from "primevue/config";
+import PrimeIcons from "primevue/config";
 
-createApp(App).mount('#app')
+import App from "./App";
+const app = createApp(App);
+
+import "primevue/resources/themes/saga-blue/theme.css";
+import "primevue/resources/primevue.min.css";
+import "primeicons/primeicons.css";
+
+app.use(router).use(PrimeVue).use(PrimeIcons);
+
+app.mount("#app");
