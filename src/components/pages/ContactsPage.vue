@@ -1,27 +1,20 @@
 <template>
   <div class="wrapper">
     <section class="info">
-      <h2 class="header">CONTACTS</h2>
+      <h2 class="title">CONTACTS</h2>
       <ul class="info__list">
         <li class="info__list-item">
-          <span class="circle"
-            ><i
-              class="pi pi-map-marker"
-              style="font-size: 2rem; color: white"
-            ></i
-          ></span>
+          <span class="circle"><i class="pi pi-map-marker icon"></i></span>
           <p>Baku , Izzat Khamidov 3/11, Azerbaijan</p>
         </li>
         <li class="info__list-item">
-          <span class="circle"
-            ><i class="pi pi-envelope" style="font-size: 2rem; color: white"></i
-          ></span>
-          <p>sales@rkkgoldgroup.com</p>
+          <span class="circle"><i class="pi pi-envelope icon"></i></span>
+          <a class="email" href="mailto:sales@rkkgoldgroup.com"
+            >sales@rkkgoldgroup.com</a
+          >
         </li>
         <li class="info__list-item">
-          <span class="circle"
-            ><i class="pi pi-wallet" style="font-size: 2rem; color: white"></i
-          ></span>
+          <span class="circle"><i class="pi pi-wallet icon"></i></span>
           <div>
             <p><span>Tax ID:</span> 1406105331</p>
             <p><span>Bank:</span> TuranBank OJSC</p>
@@ -33,6 +26,7 @@
     </section>
     <section class="form">
       <form @submit.prevent="handleSubmit(!v$.$invalid)" class="p-fluid">
+        <Toast />
         <p class="desc form__item">
           Feel free to reach out to us if you have any questions
         </p>
@@ -111,7 +105,8 @@
           <div class="field">
             <div class="p-float-label p-input-icon-right">
               <i class="pi pi-phone" />
-              <InputText
+              <InputMask
+                mask="(999) 99-999-9999"
                 class="input"
                 id="phone"
                 v-model="v$.phone.$model"
@@ -141,7 +136,7 @@
             v-model="selectedOption"
             :options="options"
             optionLabel="name"
-            optionValue="code"
+            optionValue="name"
           />
           <label for="options" style="color: black">Select an options</label>
         </div>
@@ -178,10 +173,13 @@ import InputText from "primevue/inputtext";
 import Button from "primevue/button";
 import Textarea from "primevue/textarea";
 import Dropdown from "primevue/dropdown";
+import Toast from "primevue/toast";
+import InputMask from "primevue/inputmask";
+
+import SendMailAPI from "../../../api/SendMailAPI";
 
 export default {
   setup: () => ({ v$: useVuelidate() }),
-
   data() {
     return {
       name: "",
@@ -192,35 +190,75 @@ export default {
       submitted: false,
       selectedOption: null,
       options: [
-        { name: "Consumer electronics", code: "1" },
-        { name: "Alternative energy", code: "2" },
-        { name: "Health & Wellbeing products", code: "3" },
-        { name: "Industrial equipment", code: "4" },
-        { name: "Souvenir products", code: "5" },
+        { name: "Consumer electronics" },
+        { name: "Alternative energy" },
+        { name: "Health & Wellbeing products" },
+        { name: "Industrial equipment" },
+        { name: "Souvenir products" },
       ],
     };
   },
   components: {
     InputText,
+    InputMask,
     Button,
     Textarea,
     Dropdown,
+    Toast,
   },
   methods: {
+    async sendMail() {
+      if (this.name && this.phone && this.email) {
+        SendMailAPI.send({
+          name: this.name,
+          company: this.company,
+          email: this.email,
+          phone: this.phone,
+          message: this.message,
+          selectedOption: this.selectedOption,
+        })
+          .then((res) => {
+            console.log(res);
+          })
+          .catch((e) => {
+            console.log(e);
+          });
+      }
+    },
+
     handleSubmit(isFormValid) {
       this.submitted = true;
 
       if (!isFormValid) {
         return;
       }
+
+      this.showSuccess();
+      this.resetForm();
+    },
+
+    resetForm() {
+      this.name = "";
+      this.company = "";
+      this.email = "";
+      this.phone = "";
+      this.message = "";
+      this.submitted = false;
+      this.selectedOption = null;
+    },
+    showSuccess() {
+      this.$toast.add({
+        severity: "success",
+        summary: "Thank You!",
+        detail: "Your application sent",
+        life: 3000,
+      });
+      this.sendMail();
     },
   },
   validations() {
     return {
       name: {
-        required,
-      },
-      options: {
         required,
       },
       email: {
@@ -247,10 +285,11 @@ export default {
     url(../../assets/contacts_bg.jpg);
 
   .info {
-    .header {
+    .title {
       text-align: center;
       font-size: 80px;
       font-weight: 700;
+      color: #212121;
     }
 
     &__list {
@@ -259,20 +298,36 @@ export default {
       &-item {
         display: flex;
         align-items: center;
+
         margin-bottom: 20px;
 
         .circle {
           display: inline-flex;
           align-items: center;
           justify-content: center;
+
           width: 50px;
           height: 50px;
+
           border-radius: 25px;
           background-color: var(--primary-color);
+
+          .icon {
+            font-style: 1.5rem;
+            color: #fff;
+          }
+        }
+
+        .email {
+          margin-left: 20px;
+
+          color: black;
+          font-weight: 400;
         }
 
         p {
           margin-left: 20px;
+
           font-weight: 400;
 
           span {
@@ -286,7 +341,6 @@ export default {
   }
 
   .form {
-    // border: 1px solid purple;
     margin-left: 20px;
     width: 50%;
     max-width: 500px;
@@ -299,7 +353,8 @@ export default {
     &__item {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 30px;
+
+      margin-bottom: 35px;
       .field {
         width: 48%;
         max-width: 500px;
@@ -308,8 +363,10 @@ export default {
     }
 
     .button {
-      border-radius: 10px;
       margin-bottom: 15px;
+
+      border-radius: 10px;
+
       font-weight: 700;
     }
     .input {
@@ -317,20 +374,22 @@ export default {
     }
 
     .agreement {
-      font-size: 12px;
       text-align: center;
+
+      font-size: 12px;
 
       .link {
         text-decoration: underline;
         font-size: 1.1em;
         color: var(--primary-color);
+
         cursor: pointer;
       }
     }
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
   .wrapper {
     display: block;
 
@@ -339,6 +398,61 @@ export default {
       margin: 50px auto 0 auto;
       width: 100%;
       max-width: 5900px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    .info {
+      .title {
+        font-size: 68px;
+      }
+    }
+    .form {
+      .desc {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper {
+    .info {
+      .title {
+        font-size: 60px;
+      }
+
+      .info__list-item {
+        .circle {
+          width: 30px;
+          height: 30px;
+          border-radius: 15px;
+
+          .icon {
+            font-size: 1rem;
+          }
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+    .form {
+      .desc {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    .info {
+      .title {
+        font-size: 48px;
+      }
     }
   }
 }

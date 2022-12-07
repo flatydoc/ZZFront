@@ -3,7 +3,10 @@ import * as VueRouter from "vue-router";
 import HomePage from "../views/HomePage.vue";
 import ProductsPage from "../views/ProductsPage.vue";
 import ContactsPage from "../views/ContactsPage.vue";
-import ServicesPage from "../views/ServicesPage.vue";
+import ImportPage from "../views/ImportPage.vue";
+import SupplyChainPage from "../views/SupplyChainPage.vue";
+import TradePromotionPage from "../views/TradePromotionPage.vue";
+import LogisticsServicesPage from "../views/LogisticsServicesPage.vue";
 import PrivacyPolicyPage from "../views/PrivacyPolicyPage.vue";
 
 const routes = [
@@ -35,12 +38,39 @@ const routes = [
     },
   },
   {
-    path: "/services",
-    name: "services",
-    component: ServicesPage,
+    path: "/import-export",
+    name: "import-export",
+    component: ImportPage,
     meta: {
-      layoutClass: "services",
-      name: "Services",
+      layoutClass: "import-export",
+      name: "Import / Export",
+    },
+  },
+  {
+    path: "/supply-chain-optimization",
+    name: "supply-chain-optimization",
+    component: SupplyChainPage,
+    meta: {
+      layoutClass: "supply-chain-optimization",
+      name: "Supply chain optimization",
+    },
+  },
+  {
+    path: "/trade-promotion-optimization",
+    name: "trade-promotion-optimization",
+    component: TradePromotionPage,
+    meta: {
+      layoutClass: "trade-promotion-optimization",
+      name: "Trade promotion optimization",
+    },
+  },
+  {
+    path: "/value-added-logistics-services",
+    name: "value-added-logistics-services",
+    component: LogisticsServicesPage,
+    meta: {
+      layoutClass: "value-added-logistics-services",
+      name: "Value-added logistics services",
     },
   },
   {

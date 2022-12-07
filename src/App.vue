@@ -35,9 +35,27 @@ export default {
   box-shadow: 0px 5px 10px 2px rgba(64, 112, 148, 0.2) inset;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
   .main {
-    padding: 50px;
+    padding: 40px 120px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 40px 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    padding: 20px 20px;
   }
 }
 </style>

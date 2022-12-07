@@ -1,13 +1,15 @@
 <template>
   <div>
-    <p>ServicesPage</p>
+    <p>SupplyChainPage</p>
   </div>
 </template>
 
 <script>
 export default {
+  data() {
+    return {};
+  },
   methods: {},
-  components: {},
 };
 </script>
 

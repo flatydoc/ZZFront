@@ -1,6 +1,6 @@
 <template>
   <div>
-    <footer class="footer">456</footer>
+    <footer class="footer"></footer>
   </div>
 </template>
 
@@ -10,6 +10,5 @@ export default {};
 
 <style scoped lang="scss">
 .footer {
-  background-color: gray;
 }
 </style>
