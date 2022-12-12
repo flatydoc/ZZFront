@@ -4,6 +4,9 @@ import PrimeVue from "primevue/config";
 import PrimeIcons from "primevue/config";
 import ToastService from "primevue/toastservice";
 
+const dotenv = require("dotenv");
+dotenv.config();
+
 import App from "./App";
 const app = createApp(App);
 
