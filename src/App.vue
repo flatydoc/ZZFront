@@ -29,7 +29,6 @@ export default {
 }
 
 .main {
-  min-height: calc(100vh - 80px);
   padding: 80px 120px;
 
   box-shadow: 0px 5px 10px 2px rgba(64, 112, 148, 0.2) inset;

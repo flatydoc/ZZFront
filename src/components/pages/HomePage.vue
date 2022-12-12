@@ -89,7 +89,7 @@
             <img
               class="card-img"
               alt="Consumer electronics"
-              src="../../assets/import.jpg"
+              src="../../assets/сonsumer_electronics.jpg"
             />
           </div>
           <p>Consumer electronics</p>
@@ -109,7 +109,7 @@
             <img
               class="card-img"
               alt="Health & Wellbeing products"
-              src="../../assets/import.jpg"
+              src="../../assets/health_products.jpg"
             />
           </div>
           <p>Health & Wellbeing products</p>
@@ -119,7 +119,7 @@
             <img
               class="card-img"
               alt="Industrial equipment"
-              src="../../assets/import.jpg"
+              src="../../assets/industrial_equipment.jpg"
             />
           </div>
           <p>Industrial equipment</p>
@@ -129,7 +129,7 @@
             <img
               class="card-img"
               alt="Souvenir products"
-              src="../../assets/import.jpg"
+              src="../../assets/souvenir_products.jpg"
             />
           </div>
           <p>Souvenir products</p>
@@ -180,6 +180,7 @@ export default {
   }
   .head {
     display: flex;
+    min-height: calc(100vh - 80px);
     .info {
       padding: 80px 120px;
       width: 60%;
@@ -312,9 +313,32 @@ export default {
   }
 }
 
+@media screen and (min-width: 1920px) {
+  .wrapper {
+    .head {
+      .info {
+        padding: 120px 240px;
+        .title {
+          font-size: 160px;
+        }
+
+        .subtitle {
+          font-size: 48px;
+        }
+
+        .desc {
+          font-size: 28px;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 992px) {
   .wrapper {
     .head {
+      min-height: 0;
       display: block;
       .slider {
         display: none;
@@ -395,6 +419,7 @@ export default {
   .wrapper {
     .head {
       .info {
+        text-align: center;
         padding: 20px 40px;
         .title {
           font-size: 70px;
@@ -431,7 +456,7 @@ export default {
     .head {
       .info {
         .title {
-          font-size: 54px;
+          font-size: 64px;
         }
 
         .subtitle {
@@ -441,6 +466,10 @@ export default {
     }
     .section-title {
       font-size: 22px;
+    }
+
+    .button {
+      width: 100%;
     }
   }
 }

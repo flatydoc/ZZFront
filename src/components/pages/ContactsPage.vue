@@ -278,6 +278,8 @@ export default {
   display: flex;
   justify-content: space-between;
 
+  min-height: calc(100vh - 80px);
+
   background-repeat: no-repeat;
   background-position-y: 30%;
   background-size: cover;
@@ -313,7 +315,7 @@ export default {
           background-color: var(--primary-color);
 
           .icon {
-            font-style: 1.5rem;
+            font-size: 1.5rem;
             color: #fff;
           }
         }
@@ -385,6 +387,16 @@ export default {
 
         cursor: pointer;
       }
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .wrapper {
+    justify-content: flex-start;
+
+    .form {
+      margin-left: 120px;
     }
   }
 }

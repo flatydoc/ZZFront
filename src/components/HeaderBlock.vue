@@ -7,7 +7,7 @@
           src="../assets/logo.svg"
           alt="ZZ BEST TRADE GROUP MMC logo"
         />
-        <p class="logo-name">BEST TRADE GROUP MMC</p>
+        <p class="logo-name"><span>G</span>ROUP</p>
       </router-link>
       <nav class="nav">
         <router-link @click="active = false" class="nav__item" to="/products"
@@ -84,6 +84,7 @@ export default {
   position: absolute;
   top: -160px;
   width: 100%;
+  z-index: 1;
 
   display: flex;
   justify-content: flex-end;
@@ -138,6 +139,11 @@ export default {
     p {
       font-size: 1.2em;
       font-weight: 600;
+
+      span {
+        font-size: 20px;
+        color: var(--primary-color);
+      }
     }
   }
 
