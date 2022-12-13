@@ -26,7 +26,6 @@
           $t("nav.contacts")
         }}</router-link>
         <div class="lang" @click="switchLang">
-          123
           <img :src="selectedImg" />
         </div>
       </nav>
