@@ -231,11 +231,6 @@ export default {
 }
 
 @media screen and (max-width: 992px) {
-  .tabmenu {
-    .nav__item {
-      font-size: 10px;
-    }
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -270,7 +265,13 @@ export default {
     padding: 0 20px;
 
     .nav__item {
-      padding: 0 10px;
+      padding: 0 5px;
+    }
+
+    .nav {
+      .nav__item {
+        padding: 0 10px;
+      }
     }
   }
 }
@@ -279,9 +280,11 @@ export default {
   .header {
     padding: 0 10px;
 
-    .nav__item {
-      padding: 0 10px;
-      font-size: 12px;
+    .nav {
+      .nav__item {
+        padding: 0 5px;
+        font-size: 10px;
+      }
     }
   }
 }
