@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <h2 class="title">TRADE PROMOTION OPTIMIZATION</h2>
+    <h2 class="title">{{ $t("trade_page.title") }}</h2>
     <section class="chapter">
       <div
         style="
@@ -10,99 +10,59 @@
         "
         class="chapter__block-left"
       >
-        <h3 class="chapter-title">Value</h3>
+        <h3 class="chapter-title">{{ $t("trade_page.1_section.title") }}</h3>
         <p>
-          Participating in exhibitions helps you to encounter a large number of
-          valued potential clients in one location at a specified time. You will
-          establish the groundwork for extending your network of contacts and
-          sales by selecting the suitable exhibition for the product you are
-          showing and carefully organizing everything you do.
+          {{ $t("trade_page.1_section.subtitle") }}
         </p>
       </div>
       <div class="chapter__block-right">
         <p>
-          If a company is visible on a big platform, participation in the
-          largest shows helps to boost its reputation. Exhibitions are an
-          excellent way to gain immediate feedback on a product. An exhibition
-          is a terrific place to check it out if you're not sure what
-          characteristics the original product will have or if you haven't
-          mass-produced it yet and want to see if potential purchasers will
-          appreciate it.
+          {{ $t("trade_page.1_section.paragraphs.1") }}
         </p>
         <p>
-          You can meet sales representatives, founders, investors, and speakers
-          at exhibitions with whom you can collaborate.
+          {{ $t("trade_page.1_section.paragraphs.2") }}
         </p>
         <p>
-          You can observe competitors at an exhibition to see how they position
-          their brands, what colors they use to design their exhibits, how their
-          reps appear, and how they entice potential buyers.
+          {{ $t("trade_page.1_section.paragraphs.3") }}
         </p>
       </div>
     </section>
     <img src="../../assets/promotion_page_1.jpg" />
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Challenge</h3>
+        <h3 class="chapter-title">{{ $t("trade_page.2_section.title") }}</h3>
         <p>
-          Preparing for an exhibition takes a lot of time and effort. If the
-          exhibition is held in another country, you will need to arrange for
-          visas, find a place to stay, select staff who will attend, prepare a
-          presentation, speech, stand design, employee attire, business cards,
-          brochures, and booklets. When you start doing all of this, you
-          question if it's really essential.
+          {{ $t("trade_page.2_section.subtitle") }}
         </p>
       </div>
       <div class="chapter__block-right">
         <p>
-          Participating in a variety of events stands to reason. Buyers,
-          sellers, and investors want to interact, receive information, make
-          judgments, and conclude agreements in today's digital world. The best
-          ways to do this are through exhibitions and events.
+          {{ $t("trade_page.2_section.paragraphs.1") }}
         </p>
         <p>
-          This is something that visitors to exhibitions are always in the mood
-          for. They attend a certain event with the intent of gaining expertise
-          and reviewing ideas. Investors can come to look for investment
-          opportunities. As a result, exhibitions are regarded as tremendously
-          important events. Managers spend a lot of time developing contact
-          qualifications during the usual sales cycle. These stages are omitted
-          at exhibitions, though, because spectators are interested. This
-          manner, you can be certain that you have captured your audience's
-          attention.
+          {{ $t("trade_page.2_section.paragraphs.2") }}
         </p>
       </div>
     </section>
     <img src="../../assets/promotion_page_2.png" />
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Solution</h3>
+        <h3 class="chapter-title">{{ $t("trade_page.3_section.title") }}</h3>
       </div>
       <div class="chapter__block-right">
         <p>
-          Many businesses still cannot afford to participate in an expo or other
-          type of event, owing to a lack of funds. They must pay not only the
-          entrance fees, but also all associated expenditures such as travel,
-          visas, lodging, stand design, printing of all handouts, and the wages
-          of managers or corporate representatives. ZZ BEST TRADE GROUP MMC
-          decided to provide special conditions to assist diverse enterprises
-          and start-ups in attending trade shows. We promise to split the cost
-          of exposition stands and to provide promoters, speakers, marketers,
-          and designers to help with the creation of promotional materials. At
-          the same time, ZZ BEST TRADE GROUP MMC gives comprehensive
-          participation metrics and advice.
+          {{ $t("trade_page.3_section.desc") }}
         </p>
       </div>
     </section>
     <section class="footer">
-      <h4 class="footer-title">Find out more about the service</h4>
+      <h4 class="footer-title">{{ $t("footer.title") }}</h4>
       <p class="footer-subtitle">
-        ZZ BEST TRADE GROUP MMC will provide you with the comprehensive service
-        you require.
+        {{ $t("footer.desc") }}
       </p>
       <Button
         @click="open('/contacts')"
-        label="Book a free consultation"
+        :label="$t('footer.button')"
         class="p-button-rounded footer-button"
       />
     </section>
@@ -143,7 +103,7 @@ export default {
   background-position: bottom;
   .title {
     text-align: center;
-    font-size: 80px;
+    font-size: 68px;
     font-weight: 700;
     color: #212121;
   }
@@ -160,7 +120,7 @@ export default {
 
     &-title {
       margin-bottom: 30px;
-      font-size: 48px;
+      font-size: 36px;
       font-weight: 700;
       color: #212121;
     }
@@ -254,11 +214,14 @@ export default {
 }
 @media screen and (max-width: 992px) {
   .wrapper {
+    .title {
+      font-size: 52px;
+    }
     .chapter {
       margin: 60px 0;
 
       &-title {
-        font-size: 36px;
+        font-size: 24px;
       }
 
       &-img {
@@ -277,7 +240,7 @@ export default {
 @media screen and (max-width: 768px) {
   .wrapper {
     .title {
-      font-size: 64px;
+      font-size: 42px;
     }
     .chapter {
       display: block;
@@ -307,7 +270,7 @@ export default {
 @media screen and (max-width: 576px) {
   .wrapper {
     .title {
-      font-size: 48px;
+      font-size: 30px;
     }
     .chapter {
       margin: 40px 0;
@@ -337,6 +300,9 @@ export default {
 
 @media screen and (max-width: 400px) {
   .wrapper {
+    .title {
+      font-size: 24px;
+    }
     .chapter {
       display: block;
 
@@ -357,9 +323,7 @@ export default {
         font-size: 14px;
       }
     }
-    .title {
-      font-size: 36px;
-    }
+
     .footer {
       margin: 0 -20px -20px -20px;
 

@@ -1,5 +1,341 @@
 {
-  "title": "ZZ Group",
-  "subtitle": "BEST TRADE GROUP MMC",
-  "desc": "Xidmətlərimiz, məhsullarınızı Azərbaycan alıb satmağınıza kömək edəcəkdir. Məhsullarımız Çindəki tam dövriyyəli istehsalat müəssisələrində istehsal olunur."
+  "nav": {
+    "products": "Məhsullar",
+    "services": "Xidmətlər",
+    "import": "İdxal / İxrac",
+    "supply": "Təchi̇zat zənci̇ri̇ni̇n opti̇mallaşdirilmasi",
+    "trade": "Ti̇carət təşvi̇qi̇ni̇n opti̇mallaşdirilmasi",
+    "logistics": "Əlavə dəyər təmi̇n edən logi̇sti̇ka xi̇dmətləri̇",
+    "contacts": "Əlaqə"
+  },
+
+  "home_page": {
+    "desc": "Xidmətlərimiz, məhsullarınızı Azerbaijan alıb satmağınıza kömək edəcəkdir. Məhsullarımız Çindəki tam dövriyyəli istehsalat müəssisələrində istehsal olunur.",
+    "contact_us": "Bizimlə əlaqə saxlayın",
+    "our_services": "Xi̇dmətləri̇mi̇z",
+    "services": {
+      "import": {
+        "title": "İDXAL / İXRAC",
+        "desc": "Artıq bir çox müəssisələr ZZ Best Trade Group-un öz mallarının dünya üzrə idxalı və ixracı ilə bağlı yardımından faydalanıblar."
+      },
+      "supply": {
+        "title": "TƏCHİZAT ZƏNCİRİNİN OPTİMALLAŞDIRILMASI",
+        "desc": "ZZ Best Trade Group, satınalma prosesləri və xüsusi ehtiyaclar üçün uyğunlaşdırılmış biznes həllərinin hazırlanması ilə bağlı geniş təcrübəyə malikdir."
+      },
+      "trade": {
+        "title": "TİCARƏT TƏŞVİQİNİN OPTİMALLAŞDIRILMASI",
+        "desc": "ZZ Best Trade Group ekspozisiya stendləri və promouterlər, təqdimat edən şəxslər, marketoloqlar və dizaynerlərin xərclərini bölür."
+      },
+      "logistics": {
+        "title": "ƏLAVƏ DƏYƏR TƏMİN EDƏN LOGİSTİKA XİDMƏTLƏRİ",
+        "desc": "Logistika autsorsinqi, anbar idarəçiliyi və dropshipping xidmətlərimiz haqqında ətraflı məlumat əldə edin."
+      }
+    },
+
+    "our_products": "Məhsullarimiz",
+    "products": {
+      "consumer_electronics": "Məişət elektronikası",
+      "alternative_energy": "Alternativ enerji",
+      "health_products": "Sağlamlıq və Rifah Məhsulları",
+      "industrial_equipment": "Sənaye avadanlıqları",
+      "souvenir_products": "Suvenir məhsulları"
+    },
+
+    "more": {
+      "title": "TƏKLİF ETDİYİMİZ XİDMƏTLƏR VƏ MƏHSULLAR HAQQINDA DAHA ÇOX BİLMƏK İSTƏYİRSİNİZ?",
+      "desc": "Gəlin onlarla bağlı sizə əlavə məlumat verək."
+    }
+  },
+
+  "import_page": {
+    "title": "İDXAL / İXRAC",
+
+    "global_concern": {
+      "title": "Qlobal narahatlıq",
+      "desc": "Şirkətlər təchizat xərclərini azaltmaq üçün qlobal təchizatçılardan tərəfdaş kimi istifadə edirlər, lakin planlaşdırılmamış ödənişlər, xüsusən də idxalla bağlı xərclər şirkətin maliyyəsinə əhəmiyyətli dərəcədə zərər verə bilər. Araşdırmalara görə, malların, nəqliyyatın, tariflərin və vergilərin proqnozlaşdırılan və faktiki ümumi dəyəri arasında fərq 2-10% arasında dəyişir. Ekstremal şəraitdə fərq 10%-dən çox arta bilər. Buna görə də idxal və ixrac xərclərini necə azaltmaq lazım olduğunu başa düşmək vacibdir."
+    },
+
+    "your_partner_for_complex_solutions": {
+      "title": "Kompleks həllər üzrə sizin tərəfdaşınız",
+      "desc": "Bir çox şirkət idxal və ixracla bağlı çoxsaylı çətinliklərdən və xərclərdən qaçmaq üçün dropshipping-ə (az kapitallı- stoksuz satış) üstünlük verir. Bu, pərakəndə satıcılar müştərilərdən sifariş qəbul etdikdə, lakin anbarda məhsul olmadığı zaman baş verir. Bunun əvəzinə satıcı sifarişi birbaşa istehsalçıya və ya distribyutora göndərir. Müştəri bağlamanı birbaşa başqa yerdən alacağı üçün siz gömrük rəsmiləşdirilməsi, əlavə vergilər və ya digər məsələlərlə bağlı narahat olmayacaqsınız. Bununla belə, satıcının keyfiyyət, vaxtında çatdırılma və ya digər detallar üzərində hər hansı bir nəzarəti yoxdur və alıcılar məhsullarından narazıdırlarsa, satıcıya qarşı iddia qaldırırlar. Buna görə də, anbarımızdan malları tez bir zamanda dəyişdirmək qabiliyyətinə malik olmaq vacibdir və satıcının imici üzərində müsbət təsiri olacaqdır. Bundan əlavə, məşğul olunası əşyalar, qeydiyyatlar və çoxsaylı açıqlamalar üçün sənədləşmə işləri var. Beynəlxalq həllər partnyoru olaraq biz müştərilərimizə məhsul və dəyər təqdim etmək üçün geniş çeşiddə idxal və ixrac xidmətləri təklif edirik."
+    },
+
+    "why_us": {
+      "title": "Ni̇yə Bi̇z",
+      "desc": "Məhsulların idxalı və ixracı üçün bütöv bir kampaniya aparmaq olduqca mürəkkəb görünür, çünki siz qaydalardan və incəliklərdən xəbərdar olmalı, həmçinin hansı vergilərin ödənilməli olduğunu və hansı sertifikatların hazırlanmalı olduğunu müəyyən etmək üçün araşdırma aparmalısınız. İndi bazarda idxal və ixraca kömək edən, eləcə də anbara çatdırılmanı təşkil edən şirkətlər var. Bu cür firmalarda çalışan mütəxəssislər sənədlərin hazırlanmasında səhvə yol vermə və ya qanunu pozma ehtimalını istisna edirlər. ZZ Best Trade Group, hal- hazırda bir neçə müəssisəyə məhsullarını BƏƏ və Çinə səmərəli şəkildə idxal və ixrac etməkdə köməklik göstərmişdir. Menecerlər bunu yerinə yetirmək üçün istehsalçıları, satıcıları, alıcıları və çatdırılma təminatçılarını əhatə edən etibarlı bir sistem qurmuşlar."
+    }
+  },
+
+  "supply_page": {
+    "title": "TƏCHİZAT ZƏNCİRİNİN OPTİMALLAŞDIRILMASI",
+    "1_section": {
+      "title": "Alqı-satqı və ya satınalma məsələlərinə gəldikdə, təchizat zəncirinin optimallaşdırılması haradan başlayır?",
+      "subtitle": "Chartered Institute of Purchasing and Supply (CIPS) (sözləşməli alqı-satqı və Təchizat İnstitutu) satınalmanı üçüncü tərəflərə mal və xidmətlərin çatdırılması zamanı mənfəəti ən üst səviyyəyə çıxartmaq üçün təşkilatların istifadə etdikləri strateji, taktiki və əməliyyat proseslərinin bütün kompleksi kimi müəyyənləşdirir",
+      "list": {
+        "1": "Xərclərin təhlili və qaynaq seçimi;",
+        "2": "danışıqların aparılması və müqavilənin idarə edilməsi;",
+        "3": "operativ satınalma (təklif-ödəniş prosesi);",
+        "4": "kreditor borcları;",
+        "5": "təchizatçı performansının idarə edilməsi Satınalma Mütəxəssisi tərəfindən yerinə yetirilən bütün vəzifələrdir"
+      },
+      "paragraphs": {
+        "1": "Alqı-satqının məqsədi təşkilatlara aşağıdakı üstünlükləri verməkdir: təchizat sabitliyi, xərclərin azaldılması, risklərin azaldılması, keyfiyyətin yaxşılaşdırılması, məhsula (xidmətə) dəyər əlavə etmək, əməliyyat biznes əməliyyatlarının səmərəliliyini artırmaq və yeniliklər. Alqı- satqı prosesi yalnız razılaşdırılmış qiymətə uyğun vaxtda müvafiq əşyaların və ya xidmətlərin müvafiq yerə çatdırılmasının əlaqələndirilməsi ilə bağlıdır.",
+        "2": "Təchizatçı hesab-fakturasının tələbindən ödənilməsinə qədər, Satınalma Mütəxəssisi reaktiv əməliyyat prosesinə nəzarət edir. Onun öhdəlikləri arasında ehtiyatların yığılması, ehtiyatda olmayan mal və xidmətlərin satın alınması, subpodrat işi və yük inventarının idarə edilməsi yer alır.",
+        "3": "Əgər şirkətinizdə satınalma prosesindən çox, satınalma prosesi varsa, bu, təşkilatda satınalmanın nisbi əhəmiyyətini əks etdirir və bu, işçilərə, potensial işə götürənlərə, təchizatçılara və sənayenin satınalma yetkinlik səviyyənizlə bağlı təəssüratına təsir edir.",
+        "4": "Alqı- satqı, istədiyinizi ehtiyacınız olduqda əldə etmək prosesidir. Satınalma bütün təchizat zəncirinin ən yaxşı şəkildə yerinə yetirə bilməsi üçün tərəfdaşlarla uzunmüddətli, qarşılıqlı faydalı münasibətlərin formalaşdırılmasından ibarətdir; hər şey şirkətin dəyərini artırmaqdan ibarətdir."
+      }
+    },
+    "2_section": {
+      "title": "ZZ Best Trade Group təchizat zəncirinin optimallaşdırılması həlli",
+      "desc": "Biz sizin xüsusi biznes ehtiyaclarınıza və bacarıqlarınıza uyğunlaşdırılmış şəkildə satınalma prosesinizi sıfırdan qura bilərik. Bu prosedur uzunmüddətli məqsədlər və mənfəət üçün yol açacaq, eləcə də mövcud təchizat zəncirinizi optimallaşdıracaq."
+    },
+
+    "3_section": {
+      "title": "Ni̇yə  Bi̇z",
+      "subtitle": "ZZ Best Trade Group geniş satınalma təcrübəsinə, eləcə də qeyri-standart tələblər üçün sifarişli biznes həlləri təqdim etmək qabiliyyətinə malikdir.",
+      "list": {
+        "title": "BİZİM TAM SATINALMA XİDMƏTİMİZƏ DAXİLDİR:",
+        "1": "Dünyanın ən yaxşı e-ticarət platformaları ilə inteqrasiya.",
+        "2": "ZZ Best Trade Group-un logistika həlli illərdir Shopify, BigCommerce, eBay, Alibaba, Alipay, 3dCart və Ecwid kimi e-ticarət sistemləri ilə işləyir. Biz müştərilərə real vaxt rejimində logistika fəaliyyətlərini izləməyə və hər mərhələyə nəzarət etməyə imkan veririk.",
+        "3": "İstənilən mürəkkəblik səviyyəsində yüklərin daşınması və anbarda saxlanması. Biz müştərilərə real vaxt rejimində logistika fəaliyyətlərini izləməyə və hər mərhələyə nəzarət etməyə imkan veririk. Mütəxəssislərimiz ən zərif və unikal malların belə təhlükəsiz FTL və LTL yük daşımalarını mümkün olan ən qısa zamanda təşkil etməkdə sizə yardım etməyə hazırdırlar.",
+        "4": "Mütəxəssislərimiz ən zərif və unikal malların belə təhlükəsiz FTL və LTL yük daşımalarını mümkün olan ən qısa zamanda təşkil etməkdə sizə yardım etməyə hazırdırlar. ZZ Best Trade Group peşəkarları mövsümi dəyişiklikləri, tələb və təklif bazar tendensiyalarını nəzərə alaraq, yaxşı işləyən təchizat zəncirinin inkişaf etdirilməsində və anbar ehtiyatlarına operativ nəzarətdə sizə kömək edəcəklər.",
+        "5": "Ekspress xidmət vaxtında çatdırılır. Mütəxəssislərimiz göndərilmə günü məhsulun çatdırılmasını idarə etməyə və ya “vaxtında” təchizat zəncirini yaratmağa hazırdırlar.",
+        "6": "Əks logistika xidməti. ZZ Best Trade Group qlobal anbarlar şəbəkəsi vasitəsilə müştərilərimizə qüsurlu məhsulları geri qaytarmaq imkanı verməyə hazırdır. Biz sadə qaytarma siyasəti və tez dəyişdirmə təmin edirik."
+      }
+    },
+
+    "benefits": {
+      "title": "ZZ Best Trade Group-un satınalma xidmətləri üçün üstünlükləri:",
+      "1": "Çin istehsalçılarının QC agentləri tərəfindən istehsalın keyfiyyətinə nəzarət üçün əlavə xidmət",
+      "2": "Çində OEM istehsalı ilə bağlı yardım"
+    }
+  },
+
+  "trade_page": {
+    "title": "TİCARƏT TƏŞVİQİNİN OPTİMALLAŞDIRILMASI",
+
+    "1_section": {
+      "title": "Dəyər",
+      "subtitle": "Sərgilərdə iştirak etmək sizə müəyyən vaxtda bir məkanda çoxlu sayda dəyərli potensial müştərilərlə qarşılaşmağa kömək edir. Siz nümayiş etdirdiyiniz məhsul üçün uyğun sərgini seçməklə və etdiyiniz hər şeyi diqqətlə təşkil etməklə əlaqə və satış şəbəkənizi genişləndirmək üçün zəmin yaradacaqsınız.",
+      "paragraphs": {
+        "1": "Əgər şirkət böyük platformada görünürsə, ən böyük şoularda iştirak onun nüfuzunu artırmağa kömək edir. Sərgilər məhsul haqqında dərhal rəy əldə etmək üçün əla yoldur. Əgər orijinal məhsulun hansı xüsusiyyətlərə malik olacağına əmin deyilsinizsə və ya onu hələ də kütləvi şəkildə istehsal etməmisinizsə və potensial alıcıların bunu qiymətləndirib qiymətləndirməyəcəyini görmək istəyirsinizsə, sərgi onu yoxlamaq üçün əla yerdir.",
+        "2": "Siz əməkdaşlıq edə biləcəyiniz sərgilərdə satış nümayəndələri, təsisçilər, investorlar və məruzəçilər ilə tanış ola bilərsiniz.",
+        "3": "Siz sərgidə rəqibləri müşahidə edərək markalarını necə yerləşdirdiklərini, eksponatlarını tərtib etmək üçün hansı rənglərdən istifadə etdiklərini, nümayəndələrinin necə göründüyünü və potensial alıcıları necə cəlb etdiklərini görə bilərsiniz."
+      }
+    },
+
+    "2_section": {
+      "title": "Çağırış",
+      "subtitle": "Sərgiyə hazırlıq çox vaxt və səy tələb edir. Əgər sərgi başqa ölkədə keçirilirsə, siz vizaların rəsmiləşdirilməsini təşkil etməli, qalmağa yer tapmalı, iştirak edəcək heyəti seçməli, təqdimat, çıxış, stend dizaynı, işçi geyimləri, vizit kartları, broşuralar və bukletlər hazırlamalısınız. Bütün bunları etməyə başlayanda bunun həqiqətən vacib olub olmadığını götür qoy etməyə başlayırsınız.",
+      "paragraphs": {
+        "1": "Müxtəlif tədbirlərdə iştirak etmək məntiqə uyğundur. Alıcılar, satıcılar və investorlar müasir rəqəmsal dünyada qarşılıqlı əlaqədə olmaq, məlumat almaq, mühakimə yürütmək və müqavilələr bağlamaq istəyirlər. Bunun ən yaxşı yolu sərgilər və tədbirlərdir.",
+        "2": "Bu, sərgilərə gələnlərin həmişə istədikləri bir şeydir. Onlar müəyyən bir tədbirdə təcrübə qazanmaq və fikirləri nəzərdən keçirmək niyyəti ilə iştirak edirlər. İnvestorlar sərmayə imkanlarını axtarmaq üçün gələ bilərlər. Nəticə etibarı ilə sərgilər çox mühüm hadisələr kimi qiymətləndirilir. Menecerlər adi satış dövrü ərzində əlaqə keyfiyyətlərini inkişaf etdirməyə çox vaxt sərf edirlər. Ancaq sərgilərdə bu mərhələlər buraxılır, çünki tamaşaçılar maraqlanır. Bu şəkildə, izləyicilərinizin diqqətini çəkdiyinizdən əmin ola bilərsiniz."
+      }
+    },
+
+    "3_section": {
+      "title": "Həll",
+      "desc": "Bir çox müəssisələr hələ də maliyyə çatışmazlığı səbəbindən sərgi və ya digər tədbirdə iştirak edə bilmirlər. Onlar təkcə giriş haqlarını deyil, həm də səyahət, viza, yaşayış, stend dizaynı, bütün paylama materiallarının çapı və menecerlərin və ya korporativ nümayəndələrin əmək haqqı kimi bütün xərcləri ödəməlidirlər. ZZ Best Trade Group müxtəlif müəssisələrə və startaplara ticarət sərgilərində iştirak etməkdə kömək etmək üçün xüsusi şərtlər təqdim etmək qərarına gəlib. Biz ekspozisiya stendlərinin xərclərini bölüşdürəcəyimizi və reklam materiallarının yaradılmasında kömək etmək üçün promouterləri, məruzəçiləri, marketoloqları və dizaynerləri təmin edəcəyimizi vəd edirik. Eyni zamanda, ZZ Best Trade Group hərtərəfli iştirak ölçüləri və məsləhətlər verir."
+    }
+  },
+
+  "logistics_page": {
+    "title": "ƏLAVƏ DƏYƏR TƏMİN EDƏN LOGİSTİKA XİDMƏTLƏRİ",
+
+    "1_section": {
+      "title": "Distribyutor mərkəzlərinin təşkili",
+      "paragraphs": {
+        "1": "Hal-hazırda, sürət və əsasən xarici mənbələrdən asılı olan biznes əməliyyatlarının idarə olunması xərclərini azaltmaq bacarığı korporativ uğur üçün çox vacibdir. Belə nümunələrdən biri autsorsing (xarici qaynaq) istifadə edən təşkilatları tərəfindən getdikcə daha uğurlu bir şəkildə həyata keçirilən təchizat və paylama logistika biznes prosesidir.",
+        "2": "Əlavə dəyər təmin edən logistika, istehlak bazarlarının yaxınlığında yerləşdirilən paylama mərkəzlərinin idarə edilməsinə yönəlmiş bir logistika növüdür. Bu, məhsulun müştəri dəyərini yüksəltməyə və müştərilərlə qarşılıqlı əlaqəni yaxşılaşdırmağa imkan verir. Müştərilər fərdiləşdirilmiş çatdırılma xidmətləri üçün əlavə pul ödəməyə və tələb olunarsa, aşağı keyfiyyətli məhsulları geri qaytarmağa hazırdırlar, buna görə də biz logistik xidmət təminatçıları olaraq əlavə dəyər yaradanlarıyıq."
+      }
+    },
+
+    "2_section": {
+      "title": "ZZ Best Trade Group ilə logistika üstünlükləri",
+      "list": {
+        "1": "Məhsulların son müştərilərə daşınması və satışı xərclərinin azaldılması.",
+        "2": "Xüsusilə qeyri-standart sifarişlər və ya çatdırılma şərtləri (parça tədarükü, vaxtında çatdırılmanın təşkili) üçün çevik xammal portfelinin qurulması bacarığı.",
+        "3": "Nəqliyyat və anbar infrastrukturu icarəyə verilir.",
+        "4": "Məhsul və malların logistikası, anbar və klirinq əməliyyatlarına nəzarətin artırılması.",
+        "5": "Dropshipping (bir başa çatdırılma). Biz sosial mediadan və onlayn mağazalardan öz adımızdan müəyyən bir satıcıdan və ya bir sıra tacirlərdən məhsullar satmaq üçün istifadə edə bilərik."
+      }
+    },
+
+    "3_section": {
+      "title": "Ni̇yə  Bi̇z",
+      "paragraphs": {
+        "1": "İstehsal komponentlərini istehsal nöqtəsindən müştərinin olduğu yerə çatdırırıq, bütün sənədləşmə işləri, daşınma və gömrük rəsmiləşdirilməsinə diqqət yetiririk.",
+        "2": "ZZ Best Trade Group xammalın və malların qablaşdırılması, etiketlənməsi, saxlanması və daşınmasının bütün aspektlərini idarə edir və biznes rəhbərliyinə diqqəti məhsula cəmləməyə imkan verir."
+      }
+    }
+  },
+
+  "products_page": {
+    "title": "MƏHSULLAR ZZ GROUP",
+    "button": "Daha çoxunu əldə edin",
+    "links": {
+      "consumer_electronics": "Məişət elektronikası",
+      "alternative_energy": "Alternativ enerji",
+      "health_products": "Sağlamlıq və Rifah Məhsulları",
+      "industrial_equipment": "Sənaye avadanlıqları",
+      "souvenir_products": "Suvenir məhsulları"
+    },
+    "consumer_electronics": {
+      "title": "Məişət elektronikası",
+      "subtitle": "Biz istehlakçı elektronikasının müxtəlif çeşidlərini təqdim etməkdən məmnunuq. Biz öz istehsalımız və yüksək səviyyəli keyfiyyətə nəzarət metodumuz sayəsində müstəsna elektron malları vaxtında çatdıra bilərik.",
+      "list": {
+        "1": "Şəxsi məlumatların saxlanması (flash yaddaş cihazları və HDD-lər)",
+        "2": "Qrafik və mədən avadanlıqları (PC üçün qrafik kartları)",
+        "3": "Komfort izləyicisi"
+      }
+    },
+    "alternative_energy": {
+      "title": "Alternativ enerji",
+      "subtitle": "Şirkətimiz üçün biz Yaşıl Davamlı olan Yolu seçmişik və bunu etməkdə başqalarına yardım edirik. Biz alternativ enerji mənbələrinin işlənib hazırlanması, quraşdırılması, təsis edilməsi və saxlanmasında kömək etməyə hazırıq:",
+      "list": {
+        "1": "Külək dəyirmanları",
+        "2": "Günəş panelləri"
+      }
+    },
+    "health_products": {
+      "title": "Sağlamlıq və Rifah Məhsulları",
+      "subtitle": "Pandemiya sağlamlıq məhsullarının istehsalını və paylanmasını gücləndirdi. Bu gün dünyanın əksər müəssisələri lazımi qoruyucu vasitələrə ehtiyac duyur. İstehsal etmək və vaxtında çatdırmaq üçün sizə lazım olan hər şey bizdə var:",
+      "list": {
+        "1": "Tibbi maskalar (I, II, IIR)",
+        "2": "Tənəffüs cihazları (FFP1, FFP2, FFP3)",
+        "3": "Qoruyucu üzlük və eynəklər",
+        "4": "Tibbi önlüklər",
+        "5": "Təmizləyicilər (gocsanitizer.com saytına daxil olun) və Püskürtmə vasitələri",
+        "6": "Stomatoloji məhsullar"
+      }
+    },
+    "industrial_equipment": {
+      "title": "Sənaye avadanlıqları",
+      "subtitle": "Biz on ildən artıqdır ki, imkanlarımızı təkmilləşdiririk və indi biznesinizi mümkün qədər tez işə salmağınıza kömək etmək üçün zamanla sınaqdan keçirilmiş məhsullarla təmin etməyə hazırıq:",
+      "list": {
+        "1": "Yanacaqdoldurma məntəqəsi avtoyuma",
+        "2": "Qablaşdırma avadanlığı",
+        "3": "Elektrik generatorları",
+        "4": "Qəliblər"
+      }
+    },
+    "souvenir_products": {
+      "title": "Suvenir məhsulları",
+      "subtitle": "Hər il biz tərəfdaşlarımız üçün hədiyyə ideyaları üçün üçüncü tərəf təchizatçıları axtarırıq. Təchizatçıların təcrübəsi bizi öz suvenir brendimizi yaratmağa ruhlandırdı. İndi sizə təklif edə bilərik:",
+      "list": {
+        "1": "Xüsusi hazırlanmış qələmlər",
+        "2": "Xüsusi hazırlanmış təqvimlər ",
+        "3": "Xüsusi hazırlanmış yaddaş kartları (flash)",
+        "4": "Kosmetik/maye flakonları",
+        "5": "Mağazalar və yanacaqdoldurma məntəqələri üçün stendlər"
+      }
+    }
+  },
+
+  "contacts_page": {
+    "title": "ƏLAQƏ",
+    "desc": "Hər hansı bir sualınız olarsa, bizə müraciət etməkdən çəkinməyin.",
+    "form": {
+      "button": "Göndərin",
+      "warning": "*Düyməni klikləməklə, siz istifadəçi müqaviləsi və Məxfilik Siyasəti ilə razılaşırsınız",
+      "policy": "Məxfi̇li̇k Si̇yasəti̇",
+      "placeholders": {
+        "name": "Ad",
+        "company": "Şirkət",
+        "email": "E-poçt",
+        "phone": "Telefon",
+        "option": "Seçimlərdən birini seçin",
+        "options": {
+          "consumer_electronics": "Məişət elektronikası",
+          "alternative_energy": "Alternativ enerji",
+          "health_products": "Sağlamlıq və Rifah Məhsulları",
+          "industrial_equipment": "Sənaye avadanlıqları",
+          "souvenir_products": "Suvenir məhsulları"
+        },
+        "message": "Mesaj"
+      }
+    }
+  },
+
+  "privacy_page": {
+    "title": "MƏXFİLİK SİYASƏTİ",
+    "paragraphs": {
+      "1": "Bu Məxfilik Siyasəti sənədi bu vebsayt tərəfindən toplanan və qeydə alınan məlumat növlərini və ondan necə istifadə etdiyimizi ehtiva edir.",
+      "2": "Məxfilik Siyasətimizlə bağlı əlavə suallarınız varsa və ya əlavə məlumat tələb edirsinizsə, bizimlə əlaqə saxlamaqdan çəkinməyin. Bu Məxfilik Siyasəti yalnız onlayn fəaliyyətlərimizə aiddir və paylaşdıqları və/və ya topladıqları məlumatlarla bağlı vebsaytımıza gələnlər üçün etibarlıdır. bu saytda.",
+      "3": "Bu siyasət oflayn və ya bu vebsaytdan başqa kanallar vasitəsilə toplanmış hər hansı məlumat üçün tətbiq edilmir."
+    },
+    "1_section": {
+      "title": "RAZILIQ",
+      "desc": "Veb saytımızdan istifadə etməklə, siz Məxfilik Siyasətimizə razılıq verir və onun şərtləri ilə razılaşırsınız."
+    },
+    "2_section": {
+      "title": "TOPLADIĞIMIZ MƏLUMATLAR",
+      "paragraphs": {
+        "1": "Sizdən təqdim etməyiniz xahiş olunan şəxsi məlumat və onu təqdim etməyin səbəbləri sizdən şəxsi məlumatlarınızı təqdim etməyinizi xahiş etdiyimiz anda sizə aydın olacaq.",
+        "2": "Bizimlə birbaşa əlaqə saxlasanız, adınız, e-poçt ünvanınız, telefon nömrəniz, bizə göndərə biləcəyiniz mesajın məzmunu və/yaxud əlavələr və təqdim etməyi seçdiyiniz hər hansı digər məlumat kimi sizin haqqınızda əlavə məlumat ala bilərik.",
+        "3": "Siz Hesab üçün qeydiyyatdan keçdiyiniz zaman ad, şirkət adı, ünvan, e-poçt ünvanı və telefon nömrəsi kimi elementlər daxil olmaqla əlaqə məlumatlarınızı tələb edə bilərik."
+      }
+    },
+    "3_section": {
+      "title": "SİZİN MƏLUMATINIZDAN NECƏ İSTİFADƏ EDİRİK",
+      "desc": "Biz topladığımız məlumatları müxtəlif yollarla istifadə edirik, o cümlədən:",
+      "list": {
+        "1": "Veb saytımızı təmin edirik, idarə edirik və saxlayırıq.",
+        "2": "Veb saytımızı təkmilləşdirir, fərdiləşdirir və genişləndiririk.",
+        "3": "Veb saytımızdan necə istifadə etdiyinizi başa düşürük və təhlil edirik.",
+        "4": "Biz yeni məhsullar, xidmətlər, xüsusiyyətlər və funksionallıq inkişaf etdiririk.",
+        "5": "Biz sizinlə birbaşa və ya tərəfdaşlarımızdan biri vasitəsilə, o cümlədən müştəri xidməti, vebsaytla bağlı yenilikləri və digər məlumatları sizə təqdim etmək, marketinq və tanıtım məqsədləri üçün əlaqə saxlayırıq.",
+        "6": "Sizə e-poçt göndəririk.",
+        "7": "Fırıldaqçılığı tapıb qarşısını alırıq."
+      }
+    },
+    "4_section": {
+      "title": "LOQ FAYLLARI",
+      "desc": "Bu sayt log fayllarından istifadənin standart prosedurunu izləyir. Bu fayllar veb-saytları ziyarət etdikdə ziyarətçiləri qeyd edir. Bütün hosting şirkətləri bunu edir və hosting xidmətlərinin analitikasının bir hissəsidir. Jurnal faylları tərəfindən toplanan məlumatlara internet protokolu (IP) ünvanları, brauzer növü, İnternet Xidmət Provayderi (ISP), tarix və vaxt möhürü, istinad/çıxış səhifələri və ehtimal ki, kliklərin sayı daxildir. Loq faylları tərəfindən toplanan məlumatlara internet protokolu (IP) ünvanları, brauzer növü, İnternet Xidmət Provayderi (ISP), tarix və vaxt möhürü, istinad/çıxış səhifələri və ehtimal ki, kliklərin sayı daxildir. Bunlar şəxsiyyəti müəyyənləşdirə bilən hər hansı məlumatla əlaqəli deyil. Məlumatın məqsədi trendləri təhlil etmək, saytı idarə etmək, istifadəçilərin veb-saytda hərəkətini izləmək və demoqrafik məlumat toplamaqdır."
+    },
+    "5_section": {
+      "title": "KUKİLƏR (İNTERNET MƏLUMATLARI) VƏ VEB MAYAKLARI",
+      "desc": "Hər hansı digər vebsayt kimi, bu sayt da “kukilərdən” istifadə edir. Bu kukilər ziyarətçilərin seçimləri və ziyarətçinin daxil olduğu və ya ziyarət etdiyi vebsaytdakı səhifələr daxil olmaqla məlumatları saxlamaq üçün istifadə olunur. Məlumat ziyarətçilərin brauzer tipinə və/və ya digər məlumatlara əsaslanaraq veb səhifəmizin məzmununu fərdiləşdirməklə istifadəçilərin təcrübəsini optimallaşdırmaq üçün istifadə olunur."
+    },
+    "6_section": {
+      "title": "REKLAM PARTNYORLARININ MƏXFİLLİK SİYASƏTLƏRİ",
+      "desc": "Siz vebsaytın hər bir reklam partnyoru üçün Məxfilik Siyasətini tapmaq üçün bu siyahıya müraciət edə bilərsiniz. Üçüncü tərəf reklam serverləri və ya reklam şəbəkələri birbaşa istifadəçilərin brauzerinə göndərilən kukilər, JavaScript və ya Veb İşıqları kimi texnologiyalardan istifadə edir. Bu baş verdikdə onlar avtomatik olaraq IP ünvanınızı alırlar. Bu texnologiyalar onların reklam kampaniyalarının effektivliyini ölçmək və/yaxud ziyarət etdiyiniz vebsaytlarda gördüyünüz reklam məzmununu fərdiləşdirmək üçün istifadə olunur. Nəzərə alın ki, vebsayt üçüncü tərəfin reklamçıları tərəfindən istifadə edilən bu kukilərə giriş və ya onlara nəzarət edə bilməz."
+    },
+    "7_section": {
+      "title": "ÜÇÜNCÜ TƏRƏFİN MƏXFİLLİK SİYASƏTLƏRİ",
+      "paragraphs": {
+        "1": "Bu veb-saytın Məxfilik Siyasəti digər reklamçılara və ya vebsaytlara şamil edilmir. Beləliklə, biz sizə daha ətraflı məlumat üçün bu üçüncü tərəf reklam serverlərinin müvafiq Məxfilik Siyasətlərinə müraciət etməyi məsləhət görürük. Buraya onların təcrübələri və müəyyən seçimlərdən necə imtina etmək barədə təlimatlar daxil ola bilər.",
+        "2": "Siz fərdi brauzer seçimləriniz vasitəsilə kukiləri söndürməyi seçə bilərsiniz. Xüsusi veb-brauzerlərlə kukilərin idarə edilməsi haqqında daha ətraflı məlumatı brauzerlərin müvafiq veb-saytlarında tapa bilərsiniz."
+      }
+    },
+    "8_section": {
+      "title": "CCPA MƏXFİLİK HÜQUQLARI (ŞƏXSİ MƏLUMATIMI SATMAYIN)",
+      "desc": "CCPA çərçivəsində, digər hüquqlarla yanaşı, Kaliforniya istehlakçıları aşağıdakı hüquqlara malikdir:",
+      "list": {
+        "1": "İstehlakçının şəxsi məlumatlarını toplayan biznesin istehlakçılar haqqında topladığı fərdi məlumatların kateqoriyalarını və xüsusi şəxsi hissələrinin açıqlamasını tələb etmək.",
+        "2": "Biznesin istehlakçı haqqında topladığı şəxsi məlumatların silinməsini tələb etmək.",
+        "3": "İstehlakçının şəxsi məlumatlarını satan bir müəssisədən istehlakçının şəxsi məlumatlarını satmamasını tələb etmək.",
+        "4": "Əgər müraciət etsəniz, sizə cavab vermək üçün bir ay vaxtımız var. Bu hüquqlardan hər hansı birini istifadə etmək istəyirsinizsə, bizimlə əlaqə saxlayın."
+      }
+    },
+    "9_section": {
+      "title": "GDPR MƏLUMATLARIN QORUNMASI HÜQUQLARI",
+      "desc": "Bütün məlumatların qorunması hüquqlarınızdan tam xəbərdar olduğunuza əmin olmaq istərdik. Hər bir istifadəçi aşağıdakı hüquqlara malikdir:",
+      "list": {
+        "1": "Giriş hüququ – Sizin şəxsi məlumatlarınızın surətlərini tələb etmək hüququnuz var. Bu xidmət üçün sizdən kiçik bir ödəniş tələb edə bilərik.",
+        "2": "Düzəliş etmək hüququ – Sizin qeyri-dəqiq hesab etdiyiniz hər hansı məlumatı düzəltməmizi tələb etmək hüququnuz var. Siz həmçinin natamam hesab etdiyiniz məlumatı doldurmağımızı tələb etmək hüququnuz var.",
+        "3": "Silmək hüququ - Siz müəyyən şərtlər daxilində şəxsi məlumatlarınızı silməyimizi tələb etmək hüququnuz var.",
+        "4": "Emalın məhdudlaşdırılması hüququ - Siz müəyyən şərtlər daxilində şəxsi məlumatlarınızın işlənməsini məhdudlaşdırmağımızı tələb etmək hüququnuz var.",
+        "5": "Emala etiraz etmək hüququ - Müəyyən şərtlər daxilində şəxsi məlumatlarınızı emal etməyimizə etiraz etmək hüququnuz var.",
+        "6": "Məlumatların daşınması hüququ – Sizin topladığımız məlumatları müəyyən şərtlər daxilində başqa təşkilata və ya birbaşa sizə ötürməyimizi tələb etmək hüququnuz var.",
+        "7": "Əgər müraciət etsəniz, sizə cavab vermək üçün bir ay vaxtımız var. Bu hüquqlardan hər hansı birini istifadə etmək istəyirsinizsə, bizimlə əlaqə saxlayın."
+      }
+    }
+  },
+
+  "footer": {
+    "title": "Xidmət haqqında ətraflı məlumat əldə edin",
+    "desc": "ZZ BEST TRADE GROUP MMC sizə lazım olan hərtərəfli xidməti təqdim edəcək.",
+    "button": "Pulsuz konsultasiya sifariş edin"
+  }
 }

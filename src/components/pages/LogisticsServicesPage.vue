@@ -1,27 +1,19 @@
 <template>
   <div class="wrapper">
-    <h2 class="title">VALUE-ADDED LOGISTICS SERVICES</h2>
+    <h2 class="title">{{ $t("logistics_page.title") }}</h2>
 
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Organization of distribution centers</h3>
+        <h3 class="chapter-title">
+          {{ $t("logistics_page.1_section.title") }}
+        </h3>
       </div>
       <div class="chapter__block-right">
         <p>
-          Nowadays, speed and the ability to lower the cost of managing business
-          operations that are mostly dependent on external sources are crucial
-          to corporate success. One such example is the supply and distribution
-          logistics business process, which is being increasingly successfully
-          implemented by outsourcing organizations.
+          {{ $t("logistics_page.1_section.paragraphs.1") }}
         </p>
         <p>
-          Value-added logistics is a type of logistics that focuses on the
-          management of distribution hubs that are placed near consumer
-          marketplaces. It allows you to raise the product's customer value and
-          improve customer interaction. Customers are willing to pay extra for
-          personalized delivery services and, if required, to return low-quality
-          products, so we, as logistics service providers, are also added-value
-          generators.
+          {{ $t("logistics_page.1_section.paragraphs.2") }}
         </p>
       </div>
     </section>
@@ -29,27 +21,21 @@
     <section class="chapter">
       <div class="chapter__block-left">
         <h3 class="chapter-title">
-          Logistics benefits with ZZ BEST TRADE GROUP MMC
+          {{ $t("logistics_page.2_section.title") }}
         </h3>
         <ul class="chapter-list">
           <li>
-            Decreasing the costs of transporting and selling products to end
-            customers.
+            {{ $t("logistics_page.2_section.list.1") }}
           </li>
           <li>
-            The ability to build a flexible raw material portfolio, especially
-            those for non-standard orders or delivery terms (piece supplies,
-            organization of just-in-time deliveries).
+            {{ $t("logistics_page.2_section.list.2") }}
           </li>
-          <li>Infrastructure for transportation and warehousing is leased.</li>
+          <li>{{ $t("logistics_page.2_section.list.3") }}</li>
           <li>
-            Increasing control over product and goods logistics, warehousing,
-            and clearing operations.
+            {{ $t("logistics_page.2_section.list.4") }}
           </li>
           <li>
-            Dropshipping. We can use the social media and online stores to
-            market things from a certain vendor or set of merchants on our own
-            behalf.
+            {{ $t("logistics_page.2_section.list.5") }}
           </li>
         </ul>
       </div>
@@ -63,31 +49,28 @@
     </section>
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Why Us</h3>
+        <h3 class="chapter-title">
+          {{ $t("logistics_page.3_section.title") }}
+        </h3>
       </div>
       <div class="chapter__block-right">
         <p>
-          We deliver manufacturing components from the production point to the
-          client's location, taking care of all paperwork, transportation, and
-          customs clearance.
+          {{ $t("logistics_page.3_section.paragraphs.1") }}
         </p>
         <p>
-          ZZ BEST TRADE GROUP MMC handles all aspects of packing, labeling,
-          storage, and transportation of raw materials and goods, allowing
-          business management to concentrate on the product.
+          {{ $t("logistics_page.3_section.paragraphs.2") }}
         </p>
       </div>
     </section>
 
     <section class="footer">
-      <h4 class="footer-title">Find out more about the service</h4>
+      <h4 class="footer-title">{{ $t("footer.title") }}</h4>
       <p class="footer-subtitle">
-        ZZ BEST TRADE GROUP MMC will provide you with the comprehensive service
-        you require.
+        {{ $t("footer.desc") }}
       </p>
       <Button
         @click="open('/contacts')"
-        label="Book a free consultation"
+        :label="$t('footer.button')"
         class="p-button-rounded footer-button"
       />
     </section>

@@ -3,44 +3,43 @@
     <section class="head">
       <div class="info">
         <h2 class="title">
-          PRODUCTS <br />
-          ZZ GROUP
+          {{ $t("products_page.title") }}
         </h2>
         <p class="subtitle">BEST TRADE GROUP MMC</p>
-        <a class="anchor-link button" href="#consumer_electronics"
-          >Consumer electronics</a
-        >
-        <a class="anchor-link button" href="#alternative_energy"
-          >Alternative energy</a
-        >
-        <a class="anchor-link button" href="#health_&_wellbeing_products"
-          >Health & Wellbeing products</a
-        >
-        <a class="anchor-link button" href="#industrial_equipment"
-          >Industrial equipment</a
-        >
-        <a class="anchor-link button" href="#souvenir_products"
-          >Souvenir products</a
-        >
+        <a class="anchor-link button" href="#consumer_electronics">{{
+          $t("products_page.links.consumer_electronics")
+        }}</a>
+        <a class="anchor-link button" href="#alternative_energy">{{
+          $t("products_page.links.alternative_energy")
+        }}</a>
+        <a class="anchor-link button" href="#health_&_wellbeing_products">{{
+          $t("products_page.links.health_products")
+        }}</a>
+        <a class="anchor-link button" href="#industrial_equipment">{{
+          $t("products_page.links.industrial_equipment")
+        }}</a>
+        <a class="anchor-link button" href="#souvenir_products">{{
+          $t("products_page.links.souvenir_products")
+        }}</a>
       </div>
       <div class="slider"></div>
     </section>
     <section class="chapter" id="consumer_electronics">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Consumer electronics</h3>
+        <h3 class="chapter-title">
+          {{ $t("products_page.consumer_electronics.title") }}
+        </h3>
         <p>
-          We're delighted to provide a diverse range of consumer electronics. We
-          are able to deliver exceptional electronic goods just in time thanks
-          to our own production and top-class quality control method.
+          {{ $t("products_page.consumer_electronics.subtitle") }}
         </p>
         <ul class="chapter-list">
-          <li>Private data storage (flash memory devices and HDDs)</li>
-          <li>Graphic and mining equipment (graphic cards for PC)</li>
-          <li>Comforttracker (visit promo.comforttracker.net)</li>
+          <li>{{ $t("products_page.consumer_electronics.list.1") }}</li>
+          <li>{{ $t("products_page.consumer_electronics.list.2") }}</li>
+          <li>{{ $t("products_page.consumer_electronics.list.3") }}</li>
         </ul>
         <Button
           @click="open('/contacts')"
-          label="Get more"
+          :label="$t('products_page.button')"
           class="p-button-rounded button"
         />
       </div>
@@ -53,44 +52,42 @@
         <img class="chapter-img" src="../../assets/alternative_energy.jpg" />
       </div>
       <div class="chapter__block-right" id="alternative_energy">
-        <h3 class="chapter-title">Alternative energy</h3>
+        <h3 class="chapter-title">
+          {{ $t("products_page.alternative_energy.title") }}
+        </h3>
         <p>
-          For our company, we have chosen the Green Sustainable Way and are
-          assisting others in doing so. We're ready to help with the
-          development, installation, setup and maintenance of alternative energy
-          sources:
+          {{ $t("products_page.alternative_energy.subtitle") }}
         </p>
         <ul class="chapter-list">
-          <li>Windmills</li>
-          <li>Solar Panels</li>
+          <li>{{ $t("products_page.alternative_energy.list.1") }}</li>
+          <li>{{ $t("products_page.alternative_energy.list.2") }}</li>
         </ul>
         <Button
           @click="open('/contacts')"
-          label="Get more"
+          :label="$t('products_page.button')"
           class="p-button-rounded button"
         />
       </div>
     </section>
     <section class="chapter" id="health_&_wellbeing_products">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Goods for health and well-being</h3>
+        <h3 class="chapter-title">
+          {{ $t("products_page.health_products.title") }}
+        </h3>
         <p>
-          The pandemic has boosted the production and distribution of health
-          products. Today, most facilities around the world require the
-          necessary protective equipment. We have everything you need to
-          manufacture and deliver on time:
+          {{ $t("products_page.health_products.subtitle") }}
         </p>
         <ul class="chapter-list">
-          <li>Medical masks (I, II, IIR)</li>
-          <li>Respirators (FFP1, FFP2, FFP3)</li>
-          <li>Visors and Protective Eyeglasses</li>
-          <li>Medical Gowns</li>
-          <li>Sanitizers and Sprayers</li>
-          <li>Dental products</li>
+          <li>{{ $t("products_page.health_products.list.1") }}</li>
+          <li>{{ $t("products_page.health_products.list.2") }}</li>
+          <li>{{ $t("products_page.health_products.list.3") }}</li>
+          <li>{{ $t("products_page.health_products.list.4") }}</li>
+          <li>{{ $t("products_page.health_products.list.5") }}</li>
+          <li>{{ $t("products_page.health_products.list.6") }}</li>
         </ul>
         <Button
           @click="open('/contacts')"
-          label="Get more"
+          :label="$t('products_page.button')"
           class="p-button-rounded button"
         />
       </div>
@@ -103,43 +100,43 @@
         <img class="chapter-img" src="../../assets/industrial_equipment.jpg" />
       </div>
       <div class="chapter__block-right">
-        <h3 class="chapter-title">Industrial equipment</h3>
+        <h3 class="chapter-title">
+          {{ $t("products_page.industrial_equipment.title") }}
+        </h3>
         <p>
-          We've been improving our facilities for over a decade, and now we're
-          ready to provide you with time-tested products to help you get your
-          business up and running as quickly as possible:
+          {{ $t("products_page.industrial_equipment.subtitle") }}
         </p>
         <ul class="chapter-list">
-          <li>Gas station car washes</li>
-          <li>Packaging equipment</li>
-          <li>Power generators</li>
-          <li>Molds</li>
+          <li>{{ $t("products_page.industrial_equipment.list.1") }}</li>
+          <li>{{ $t("products_page.industrial_equipment.list.2") }}</li>
+          <li>{{ $t("products_page.industrial_equipment.list.3") }}</li>
+          <li>{{ $t("products_page.industrial_equipment.list.4") }}</li>
         </ul>
         <Button
           @click="open('/contacts')"
-          label="Get more"
+          :label="$t('products_page.button')"
           class="p-button-rounded button"
         />
       </div>
     </section>
     <section class="chapter" id="souvenir_products">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Souvenir products</h3>
+        <h3 class="chapter-title">
+          {{ $t("products_page.souvenir_products.title") }}
+        </h3>
         <p>
-          Each year, we have sought out third-party suppliers for gift ideas for
-          our partners. The suppliers' experience has inspired us to start our
-          own souvenir brand. Now we can offer:
+          {{ $t("products_page.souvenir_products.subtitle") }}
         </p>
         <ul class="chapter-list">
-          <li>Customized pens</li>
-          <li>Customized calendars</li>
-          <li>Customized flash drives</li>
-          <li>Cosmetic / liquid vials</li>
-          <li>Stands for stores and gas stations</li>
+          <li>{{ $t("products_page.souvenir_products.list.1") }}</li>
+          <li>{{ $t("products_page.souvenir_products.list.2") }}</li>
+          <li>{{ $t("products_page.souvenir_products.list.3") }}</li>
+          <li>{{ $t("products_page.souvenir_products.list.4") }}</li>
+          <li>{{ $t("products_page.souvenir_products.list.5") }}</li>
         </ul>
         <Button
           @click="open('/contacts')"
-          label="Get more"
+          :label="$t('products_page.button')"
           class="p-button-rounded button"
         />
       </div>
@@ -175,7 +172,7 @@ export default {
   padding: 0 0 20px 0;
   .button {
     margin-top: 30px;
-    width: 180px;
+    width: 220px;
     height: 60px;
 
     font-weight: 700;
@@ -198,7 +195,7 @@ export default {
         margin-bottom: 30px;
 
         color: #212121;
-        font-size: 80px;
+        font-size: 72px;
         font-weight: 700;
       }
 
@@ -377,7 +374,7 @@ export default {
         text-align: center;
         padding: 20px 40px;
         .title {
-          font-size: 56px;
+          font-size: 52px;
         }
 
         .subtitle {
@@ -400,7 +397,7 @@ export default {
     .head {
       .info {
         .title {
-          font-size: 42px;
+          font-size: 36px;
         }
 
         .subtitle {

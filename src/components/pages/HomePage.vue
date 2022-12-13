@@ -8,20 +8,18 @@
         </h1>
         <p class="subtitle">BEST TRADE GROUP MMC</p>
         <p class="desc">
-          Our services will assist you in trading your products in Azerbaijan.
-          Our goods are produced in our own full-cycle manufacturing facilities
-          in China.
+          {{ $t("home_page.desc") }}
         </p>
         <Button
           @click="open('/contacts')"
-          label="Contact us"
+          :label="$t('home_page.contact_us')"
           class="p-button-rounded button"
         />
       </div>
       <div class="slider"></div>
     </section>
     <section class="section services">
-      <h2 class="section-title">Our services</h2>
+      <h2 class="section-title">{{ $t("home_page.our_services") }}</h2>
       <div class="services-wrapper section-wrapper">
         <div @click="open('/import-export')" class="card">
           <div>
@@ -31,10 +29,11 @@
               alt="IMPORT / EXPORT"
             />
           </div>
-          <h3 class="card-title">IMPORT / EXPORT</h3>
+          <h3 class="card-title">
+            {{ $t("home_page.services.import.title") }}
+          </h3>
           <p>
-            Many enterprises have already benefited from ZZ BEST TRADE GROUP MMC
-            assistance in importing and exporting their goods around the world.
+            {{ $t("home_page.services.import.desc") }}
           </p>
         </div>
         <div @click="open('/supply-chain-optimization')" class="card">
@@ -45,11 +44,11 @@
               alt="SUPPLY CHAIN OPTIMIZATION"
             />
           </div>
-          <h3 class="card-title">SUPPLY CHAIN OPTIMIZATION</h3>
+          <h3 class="card-title">
+            {{ $t("home_page.services.supply.title") }}
+          </h3>
           <p>
-            ZZ BEST TRADE GROUP MMC has extensive experience with procurement
-            processes and developing tailored business solutions for specific
-            needs.
+            {{ $t("home_page.services.supply.desc") }}
           </p>
         </div>
         <div @click="open('/trade-promotion-optimization')" class="card">
@@ -60,10 +59,9 @@
               alt="TRADE PROMOTION OPTIMIZATION"
             />
           </div>
-          <h3 class="card-title">TRADE PROMOTION OPTIMIZATION</h3>
+          <h3 class="card-title">{{ $t("home_page.services.trade.title") }}</h3>
           <p>
-            ZZ BEST TRADE GROUP MMC splits the expense of exposition stands and
-            promoters, presenters, marketers, and designers.
+            {{ $t("home_page.services.trade.desc") }}
           </p>
         </div>
         <div @click="open('/value-added-logistics-services')" class="card">
@@ -74,16 +72,17 @@
               alt="VALUE-ADDED LOGISTICS SERVICES"
             />
           </div>
-          <h3 class="card-title">VALUE-ADDED LOGISTICS SERVICES</h3>
+          <h3 class="card-title">
+            {{ $t("home_page.services.logistics.title") }}
+          </h3>
           <p>
-            Learn more about our logistics outsourcing, warehouse management,
-            and dropshipping services.
+            {{ $t("home_page.services.logistics.desc") }}
           </p>
         </div>
       </div>
     </section>
     <section class="section products">
-      <h2 class="section-title">Our products</h2>
+      <h2 class="section-title">{{ $t("home_page.our_products") }}</h2>
       <div class="products-wrapper section-wrapper">
         <div @click="open('/products')" class="card">
           <div>
@@ -93,7 +92,7 @@
               src="../../assets/сonsumer_electronics.jpg"
             />
           </div>
-          <p>Consumer electronics</p>
+          <p>{{ $t("home_page.products.consumer_electronics") }}</p>
         </div>
         <div @click="open('/products')" class="card">
           <div>
@@ -103,7 +102,7 @@
               src="../../assets/alternative_energy.jpg"
             />
           </div>
-          <p>Alternative energy</p>
+          <p>{{ $t("home_page.products.alternative_energy") }}</p>
         </div>
         <div @click="open('/products')" class="card">
           <div>
@@ -113,7 +112,7 @@
               src="../../assets/health_products.jpg"
             />
           </div>
-          <p>Health & Wellbeing products</p>
+          <p>{{ $t("home_page.products.health_products") }}</p>
         </div>
         <div @click="open('/products')" class="card">
           <div>
@@ -123,7 +122,7 @@
               src="../../assets/industrial_equipment.jpg"
             />
           </div>
-          <p>Industrial equipment</p>
+          <p>{{ $t("home_page.products.industrial_equipment") }}</p>
         </div>
         <div @click="open('/products')" class="card">
           <div>
@@ -133,14 +132,14 @@
               src="../../assets/souvenir_products.jpg"
             />
           </div>
-          <p>Souvenir products</p>
+          <p>{{ $t("home_page.products.souvenir_products") }}</p>
         </div>
         <div class="card more">
-          <p>WISH TO KNOW MORE ABOUT THE SERVICES AND PRODUCTS WE OFFER?</p>
-          <p>Let us provide you extra information on them.</p>
+          <p>{{ $t("home_page.more.title") }}</p>
+          <p>{{ $t("home_page.more.desc") }}</p>
           <Button
             @click="open('/contacts')"
-            label="Contact us"
+            :label="$t('home_page.contact_us')"
             class="p-button-rounded button"
           />
         </div>
@@ -174,7 +173,7 @@ export default {
   padding: 0;
   .button {
     margin-top: 30px;
-    width: 180px;
+    width: 220px;
     height: 60px;
 
     font-weight: 700;

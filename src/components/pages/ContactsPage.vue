@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <section class="info">
-      <h2 class="title">CONTACTS</h2>
+      <h2 class="title">{{ $t("contacts_page.title") }}</h2>
       <ul class="info__list">
         <li class="info__list-item">
           <span class="circle"><i class="pi pi-map-marker icon"></i></span>
@@ -28,7 +28,7 @@
       <form @submit.prevent="handleSubmit(!v$.$invalid)" class="p-fluid">
         <Toast />
         <p class="desc form__item">
-          Feel free to reach out to us if you have any questions
+          {{ $t("contacts_page.desc") }}
         </p>
         <div class="form__item">
           <div class="field">
@@ -43,7 +43,7 @@
                 for="name"
                 style="color: black"
                 :class="{ 'p-error': v$.name.$invalid && submitted }"
-                >Name*</label
+                >{{ $t("contacts_page.form.placeholders.name") }}*</label
               >
             </div>
             <small
@@ -62,7 +62,9 @@
                 type="text"
                 v-model="company"
               />
-              <label for="company" style="color: black">Company</label>
+              <label for="company" style="color: black">{{
+                $t("contacts_page.form.placeholders.company")
+              }}</label>
             </div>
           </div>
         </div>
@@ -81,7 +83,7 @@
                 for="email"
                 style="color: black"
                 :class="{ 'p-error': v$.email.$invalid && submitted }"
-                >Email*</label
+                >{{ $t("contacts_page.form.placeholders.email") }}*</label
               >
             </div>
             <span v-if="v$.email.$error && submitted">
@@ -116,7 +118,7 @@
                 for="phone"
                 style="color: black"
                 :class="{ 'p-error': v$.phone.$invalid && submitted }"
-                >Phone*</label
+                >{{ $t("contacts_page.form.placeholders.phone") }}*</label
               >
             </div>
             <small
@@ -138,7 +140,9 @@
             optionLabel="name"
             optionValue="name"
           />
-          <label for="options" style="color: black">Select an options</label>
+          <label for="options" style="color: black">{{
+            $t("contacts_page.form.placeholders.option")
+          }}</label>
         </div>
 
         <div class="p-float-label">
@@ -151,15 +155,21 @@
             cols="20"
             :autoResize="true"
           />
-          <label for="message" style="color: black">Message</label>
+          <label for="message" style="color: black">{{
+            $t("contacts_page.form.placeholders.message")
+          }}</label>
         </div>
 
-        <Button class="button form__item" type="submit" label="Send" />
+        <Button
+          class="button form__item"
+          type="submit"
+          :label="$t('contacts_page.form.button')"
+        />
         <p class="agreement">
-          *By clicking the button, you agree to the user agreement and
-          <router-link class="link" to="/privacy-policy"
-            >Privacy Policy</router-link
-          >
+          {{ $t("contacts_page.form.warning") }}
+          <router-link class="link" to="/privacy-policy">{{
+            $t("contacts_page.form.policy")
+          }}</router-link>
         </p>
       </form>
     </section>
@@ -190,11 +200,31 @@ export default {
       submitted: false,
       selectedOption: null,
       options: [
-        { name: "Consumer electronics" },
-        { name: "Alternative energy" },
-        { name: "Health & Wellbeing products" },
-        { name: "Industrial equipment" },
-        { name: "Souvenir products" },
+        {
+          name: this.$t(
+            "contacts_page.form.placeholders.options.consumer_electronics"
+          ),
+        },
+        {
+          name: this.$t(
+            "contacts_page.form.placeholders.options.alternative_energy"
+          ),
+        },
+        {
+          name: this.$t(
+            "contacts_page.form.placeholders.options.health_products"
+          ),
+        },
+        {
+          name: this.$t(
+            "contacts_page.form.placeholders.options.industrial_equipment"
+          ),
+        },
+        {
+          name: this.$t(
+            "contacts_page.form.placeholders.options.souvenir_products"
+          ),
+        },
       ],
     };
   },

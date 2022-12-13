@@ -1,71 +1,47 @@
 <template>
   <div class="wrapper">
-    <h2 class="title">SUPPLY CHAIN OPTIMIZATION</h2>
+    <h2 class="title">{{ $t("supply_page.title") }}</h2>
     <section class="chapter">
       <div class="chapter__block-left">
         <h3 class="chapter-title">
-          When it comes to purchasing or procurement, where does supply chain
-          optimization start?
+          {{ $t("supply_page.1_section.title") }}
         </h3>
         <p>
-          The Chartered Institute of Purchasing and Supply (CIPS) defines
-          procurement as the whole set of strategic, tactical, and operational
-          processes that organizations employ to maximize profits when
-          delivering goods and services to third parties.
+          {{ $t("supply_page.1_section.subtitle") }}
         </p>
       </div>
       <div class="chapter__block-right">
         <ul class="chapter-list">
-          <li>Cost analysis and sourcing;</li>
-          <li>negotiation and contract management;</li>
-          <li>operational procurement (bid-to-pay process);</li>
-          <li>accounts payable;</li>
+          <li>{{ $t("supply_page.1_section.list.1") }}</li>
+          <li>{{ $t("supply_page.1_section.list.2") }}</li>
+          <li>{{ $t("supply_page.1_section.list.3") }}</li>
+          <li>{{ $t("supply_page.1_section.list.4") }}</li>
           <li>
-            supplier performance management are all tasks performed by the
-            Procurement Specialist
+            {{ $t("supply_page.1_section.list.5") }}
           </li>
         </ul>
         <p>
-          The goal of purchasing is to give organizations with the following
-          benefits: supply stability, cost reduction, risk reduction, quality
-          improvement, adding value to the product (service), enhancing the
-          efficiency of operational business operations, and innovations. The
-          purchasing process is solely concerned with coordinating the delivery
-          of the appropriate items or services to the appropriate location at
-          the appropriate time for the agreed upon price.
+          {{ $t("supply_page.1_section.paragraphs.1") }}
         </p>
         <p>
-          From request to payment of supplier invoice, the Purchasing Specialist
-          oversees the reactive transaction process. His responsibilities
-          include stockpiling resources, purchasing non-stockable goods and
-          services, subcontracting, and consignment inventory management.
+          {{ $t("supply_page.1_section.paragraphs.2") }}
         </p>
         <p>
-          If your company has a purchasing process rather than a procurement
-          process, it reflects the relative importance of procurement in the
-          organization, which has an impact on employees, potential hires,
-          suppliers, and the industry's impression of your procurement maturity
-          level.
+          {{ $t("supply_page.1_section.paragraphs.3") }}
         </p>
         <p>
-          Purchasing is the process of getting what you want when you need
-          it.Procurement is all about forming long-term, mutually beneficial
-          relationships with partners so that the entire supply chain can
-          perform at its best; it's all about maximizing the company's worth.
+          {{ $t("supply_page.1_section.paragraphs.4") }}
         </p>
       </div>
     </section>
     <img src="../../assets/supply_page_1.jpg" />
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Our supply chain optimization solution</h3>
+        <h3 class="chapter-title">{{ $t("supply_page.2_section.title") }}</h3>
       </div>
       <div class="chapter__block-right">
         <p>
-          We can set up your procurement process from the ground up, tailored to
-          your specific business needs and skills. This procedure will pave the
-          path for long-term objectives and profit, as well as optimize your
-          present supply chain.
+          {{ $t("supply_page.2_section.desc") }}
         </p>
         <img
           class="chapter-img"
@@ -76,82 +52,60 @@
     </section>
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Why Us</h3>
+        <h3 class="chapter-title">{{ $t("supply_page.3_section.title") }}</h3>
         <p>
-          ZZ BEST TRADE GROUP MMC has extensive procurement experience as well
-          as the ability to provide bespoke business solutions for non-standard
-          demands.
+          {{ $t("supply_page.3_section.subtitle") }}
         </p>
       </div>
       <div class="chapter__block-right">
         <p style="margin-bottom: 20px; font-weight: 700; font-size: 18px">
-          OUR FULL PROCUREMENT SERVICE INCLUDES:
+          {{ $t("supply_page.3_section.list.title") }}
         </p>
         <ul class="chapter-list">
-          <li>Integration with the world's top e-commerce platforms.</li>
+          <li>{{ $t("supply_page.3_section.list.1") }}</li>
           <li>
-            ZZ BEST TRADE GROUP MMC logistics solution has worked with
-            e-commerce systems such as Shopify, BigCommerce, eBay, Alibaba,
-            Alipay, 3dCart, and Ecwid for years. We enable customers to track
-            logistics activities in real time and monitor each stage.
+            {{ $t("supply_page.3_section.list.2") }}
           </li>
           <li>
-            Freight transportation and warehousing of any level of complexity.
-            We enable customers to track logistics activities in real time and
-            monitor each stage. Our experts are ready to assist you in arranging
-            safe FTL and LTL freight transportation of even the most delicate
-            and unique goods in the quickest time feasible.
+            {{ $t("supply_page.3_section.list.3") }}
           </li>
           <li>
-            Stock management service. Our experts are ready to assist you in
-            arranging safe FTL and LTL freight transportation of even the most
-            delicate and unique goods in the quickest time feasible. ZZ BEST
-            TRADE GROUP MMC professionals will assist you in developing a
-            well-functioning supply chain and operational control of warehouse
-            inventories, taking into consideration seasonal swings and supply
-            and demand market trends.
+            {{ $t("supply_page.3_section.list.4") }}
           </li>
           <li>
-            Express service delivered just-in-time. Our experts are ready to
-            manage product delivery on the day of shipment or create a
-            "just-in-time" supply chain.
+            {{ $t("supply_page.3_section.list.5") }}
           </li>
           <li>
-            Service for reverse logistics. ZZ BEST TRADE GROUP MMC is prepared
-            to give our customers with the option of returning defective
-            products through a global network of warehouses. We provide a simple
-            return policy and prompt replacement.
+            {{ $t("supply_page.3_section.list.6") }}
           </li>
         </ul>
       </div>
     </section>
     <section class="benefits">
       <h4 class="benefits-title">
-        ZZ BEST TRADE GROUP MMC benefits for procurement services:
+        {{ $t("supply_page.benefits.title") }}
       </h4>
       <div class="benefits__wrapper">
         <div>
           <img src="../../assets/supply_page_3.jpg" />
           <p>
-            Additional service for quality control of production by QC agents of
-            Chinese manufacturers
+            {{ $t("supply_page.benefits.1") }}
           </p>
         </div>
         <div>
           <img src="../../assets/supply_page_4.jpeg" />
-          <p>Assistance with OEM manufacturing in China</p>
+          <p>{{ $t("supply_page.benefits.2") }}</p>
         </div>
       </div>
     </section>
     <section class="footer">
-      <h4 class="footer-title">Find out more about the service</h4>
+      <h4 class="footer-title">{{ $t("footer.title") }}</h4>
       <p class="footer-subtitle">
-        ZZ BEST TRADE GROUP MMC will provide you with the comprehensive service
-        you require.
+        {{ $t("footer.desc") }}
       </p>
       <Button
         @click="open('/contacts')"
-        label="Book a free consultation"
+        :label="$t('footer.button')"
         class="p-button-rounded footer-button"
       />
     </section>
@@ -192,7 +146,7 @@ export default {
   background-position: bottom;
   .title {
     text-align: center;
-    font-size: 80px;
+    font-size: 68px;
     font-weight: 700;
     color: #212121;
   }
@@ -209,7 +163,7 @@ export default {
 
     &-title {
       margin-bottom: 30px;
-      font-size: 48px;
+      font-size: 36px;
       font-weight: 700;
       color: #212121;
     }
@@ -337,11 +291,14 @@ export default {
 
 @media screen and (max-width: 992px) {
   .wrapper {
+    .title {
+      font-size: 52px;
+    }
     .chapter {
       margin: 60px 0;
 
       &-title {
-        font-size: 36px;
+        font-size: 24px;
       }
 
       &-img {
@@ -360,14 +317,13 @@ export default {
 @media screen and (max-width: 768px) {
   .wrapper {
     .title {
-      font-size: 64px;
+      font-size: 42px;
     }
     .chapter {
       display: block;
       margin: 40px 0;
 
       &-title {
-        font-size: 24px;
         text-align: center;
       }
 
@@ -390,7 +346,7 @@ export default {
 @media screen and (max-width: 576px) {
   .wrapper {
     .title {
-      font-size: 48px;
+      font-size: 30px;
     }
     .chapter {
       margin: 40px 0;
@@ -437,6 +393,9 @@ export default {
 
 @media screen and (max-width: 400px) {
   .wrapper {
+    .title {
+      font-size: 24px;
+    }
     .chapter {
       display: block;
 
@@ -456,9 +415,6 @@ export default {
       p {
         font-size: 14px;
       }
-    }
-    .title {
-      font-size: 36px;
     }
     .footer {
       margin: 0 -20px -20px -20px;

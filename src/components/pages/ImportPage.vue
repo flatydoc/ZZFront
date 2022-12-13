@@ -1,19 +1,15 @@
 <template>
   <div class="wrapper">
-    <h2 class="title">IMPORT / EXPORT</h2>
+    <h2 class="title">{{ $t("import_page.title") }}</h2>
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Global Concern</h3>
+        <h3 class="chapter-title">
+          {{ $t("import_page.global_concern.title") }}
+        </h3>
       </div>
       <div class="chapter__block-right">
         <p>
-          Companies use global suppliers as partners to reduce their supply
-          costs, but unplanned charges, particularly those related to imports,
-          can substantially harm a company's finances. According to studies, the
-          difference between the predicted and actual total cost of goods,
-          transportation, tariffs, and taxes ranges from 2 to 10%. In extreme
-          circumstances, the disparity can increase by more than 10%. It is
-          therefore sessential to understand how to cut import and export costs.
+          {{ $t("import_page.global_concern.desc") }}
         </p>
         <img
           class="chapter-img"
@@ -24,60 +20,35 @@
     </section>
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Your Partner for Complex Solutions</h3>
+        <h3 class="chapter-title">
+          {{ $t("import_page.your_partner_for_complex_solutions.title") }}
+        </h3>
       </div>
       <div class="chapter__block-right">
         <p>
-          Many companies prefer dropshipping to avoid the multiple hassles and
-          costs associated with import and export. This occurs when retailers
-          take orders from clients but do not have the products in stock.
-          Instead, the vendor sends the order to the manufacturer or distributor
-          directly. Since the customer will get the parcel directly from another
-          location, you don't have to worry about customs clearance, additional
-          taxes, or other issues. However, the seller has no control over the
-          quality, the timeliness of delivery, or any other details, and if
-          buyers are unhappy with their products, they make a claim against the
-          seller. Therefore, having the ability to promptly replace goods from
-          our warehouse is essential and will have a positive impact on the
-          seller's image. In addition, there's the paperwork for items,
-          registrations, and numerous disclosures to be dealt with. As an
-          international solutions partner, we offer a comprehensive range of
-          import and export services to deliver products and value to our
-          clients.
+          {{ $t("import_page.your_partner_for_complex_solutions.desc") }}
         </p>
       </div>
     </section>
     <img src="../../assets/import_page_2.jpg" />
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Why Us</h3>
+        <h3 class="chapter-title">{{ $t("import_page.why_us.title") }}</h3>
       </div>
       <div class="chapter__block-right">
         <p>
-          Carrying out an entire campaign to import and export products appears
-          to be quite complicated since you must be aware of the regulations and
-          intricacies, as well as conduct research to determine what taxes must
-          be paid and what certificates must be prepared. There are now
-          companies on the market that assist with import and export, as well as
-          organizing delivery to a warehouse. Professionals working in such
-          firms rule out the potential of making a mistake in document
-          preparation or violating the law. ZZ BEST TRADE GROUP MMC has already
-          assisted several enterprises in effectively importing and exporting
-          their products in Azerbaijan and China. Managers have set up a
-          dependable system involving manufacturers, sellers, buyers, and
-          delivery providers to accomplish this.
+          {{ $t("import_page.why_us.desc") }}
         </p>
       </div>
     </section>
     <section class="footer">
-      <h4 class="footer-title">Find out more about the service</h4>
+      <h4 class="footer-title">{{ $t("footer.title") }}</h4>
       <p class="footer-subtitle">
-        ZZ BEST TRADE GROUP MMC will provide you with the comprehensive service
-        you require.
+        {{ $t("footer.desc") }}
       </p>
       <Button
         @click="open('/contacts')"
-        label="Book a free consultation"
+        :label="$t('footer.button')"
         class="p-button-rounded footer-button"
       />
     </section>

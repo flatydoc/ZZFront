@@ -10,44 +10,50 @@
         <p class="logo-name">BEST TRADE GROUP MMC</p>
       </router-link>
       <nav class="nav">
-        <router-link @click="active = false" class="nav__item" to="/products"
-          >Products</router-link
-        >
+        <router-link @click="active = false" class="nav__item" to="/products">{{
+          $t("nav.products")
+        }}</router-link>
         <p
           @click="tabMenuHandler"
           class="nav__item dropdown"
           :style="[active ? activeStyle : '']"
         >
-          Services
+          {{ $t("nav.services") }}
           <i v-if="!active" class="pi pi-angle-down dropdown-icon"></i>
           <i v-else-if="active" class="pi pi-angle-up dropdown-icon"></i>
         </p>
-        <router-link @click="active = false" class="nav__item" to="/contacts"
-          >Contacts</router-link
-        >
+        <router-link @click="active = false" class="nav__item" to="/contacts">{{
+          $t("nav.contacts")
+        }}</router-link>
+        <div class="lang" @click="switchLang">
+          <img :src="selectedImg" />
+        </div>
       </nav>
     </header>
     <div class="tabmenu" :style="[active ? showStyle : hiddenStyle]">
-      <router-link @click="tabMenuHandler" class="nav__item" to="/import-export"
-        >Import / Export</router-link
+      <router-link
+        @click="tabMenuHandler"
+        class="nav__item"
+        to="/import-export"
+        >{{ $t("nav.import") }}</router-link
       >
       <router-link
         @click="tabMenuHandler"
         class="nav__item"
         to="/supply-chain-optimization"
-        >Supply chain optimization</router-link
+        >{{ $t("nav.supply") }}</router-link
       >
       <router-link
         @click="tabMenuHandler"
         class="nav__item"
         to="/trade-promotion-optimization"
-        >Trade promotion optimization</router-link
+        >{{ $t("nav.trade") }}</router-link
       >
       <router-link
         @click="tabMenuHandler"
         class="nav__item"
         to="/value-added-logistics-services"
-        >Value-added logistics services</router-link
+        >{{ $t("nav.logistics") }}</router-link
       >
     </div>
   </div>
@@ -57,6 +63,7 @@
 export default {
   data() {
     return {
+      img: this.$i18n.locale === "en" ? "../assets/gb.svg" : "../assets/az.svg",
       active: false,
       activeStyle: {
         color: "#2196F3",
@@ -73,6 +80,19 @@ export default {
   methods: {
     tabMenuHandler() {
       !this.active ? (this.active = true) : (this.active = false);
+    },
+    switchLang() {
+      this.$i18n.locale === "en"
+        ? (this.$i18n.locale = "az")
+        : (this.$i18n.locale = "en");
+    },
+  },
+  computed: {
+    selectedImg() {
+      if (this.$i18n.locale === "en") {
+        return require(`../assets/gb.svg`);
+      }
+      return require(`../assets/az.svg`);
     },
   },
   components: {},
@@ -154,6 +174,14 @@ export default {
       color: var(--primary-color);
     }
 
+    .lang {
+      display: inline-flex;
+      align-items: center;
+
+      width: 24px;
+      margin: 0 10px;
+    }
+
     &__item {
       display: inline-flex;
       align-items: center;
@@ -205,7 +233,7 @@ export default {
 @media screen and (max-width: 992px) {
   .tabmenu {
     .nav__item {
-      font-size: 12px;
+      font-size: 10px;
     }
   }
 }
