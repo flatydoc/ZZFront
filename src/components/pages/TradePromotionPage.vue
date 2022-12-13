@@ -84,19 +84,21 @@
           type of event, owing to a lack of funds. They must pay not only the
           entrance fees, but also all associated expenditures such as travel,
           visas, lodging, stand design, printing of all handouts, and the wages
-          of managers or corporate representatives. ZZ Group decided to provide
-          special conditions to assist diverse enterprises and start-ups in
-          attending trade shows. We promise to split the cost of exposition
-          stands and to provide promoters, speakers, marketers, and designers to
-          help with the creation of promotional materials. At the same time, ZZ
-          Group gives comprehensive participation metrics and advice.
+          of managers or corporate representatives. ZZ BEST TRADE GROUP MMC
+          decided to provide special conditions to assist diverse enterprises
+          and start-ups in attending trade shows. We promise to split the cost
+          of exposition stands and to provide promoters, speakers, marketers,
+          and designers to help with the creation of promotional materials. At
+          the same time, ZZ BEST TRADE GROUP MMC gives comprehensive
+          participation metrics and advice.
         </p>
       </div>
     </section>
     <section class="footer">
       <h4 class="footer-title">Find out more about the service</h4>
       <p class="footer-subtitle">
-        ZZ Group will provide you with the comprehensive service you require.
+        ZZ BEST TRADE GROUP MMC will provide you with the comprehensive service
+        you require.
       </p>
       <Button
         @click="open('/contacts')"

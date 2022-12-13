@@ -8,9 +8,9 @@
         </h1>
         <p class="subtitle">BEST TRADE GROUP MMC</p>
         <p class="desc">
-          Our services will assist you in trading your products in UAE. Our
-          goods are produced in our own full-cycle manufacturing facilities in
-          China.
+          Our services will assist you in trading your products in Azerbaijan.
+          Our goods are produced in our own full-cycle manufacturing facilities
+          in China.
         </p>
         <Button
           @click="open('/contacts')"
@@ -33,8 +33,8 @@
           </div>
           <h3 class="card-title">IMPORT / EXPORT</h3>
           <p>
-            Many enterprises have already benefited from ZZ group's assistance
-            in importing and exporting their goods around the world.
+            Many enterprises have already benefited from ZZ BEST TRADE GROUP MMC
+            assistance in importing and exporting their goods around the world.
           </p>
         </div>
         <div @click="open('/supply-chain-optimization')" class="card">
@@ -47,8 +47,9 @@
           </div>
           <h3 class="card-title">SUPPLY CHAIN OPTIMIZATION</h3>
           <p>
-            ZZ Group has extensive experience with procurement processes and
-            developing tailored business solutions for specific needs.
+            ZZ BEST TRADE GROUP MMC has extensive experience with procurement
+            processes and developing tailored business solutions for specific
+            needs.
           </p>
         </div>
         <div @click="open('/trade-promotion-optimization')" class="card">
@@ -61,7 +62,7 @@
           </div>
           <h3 class="card-title">TRADE PROMOTION OPTIMIZATION</h3>
           <p>
-            The ZZ company splits the expense of exposition stands and
+            ZZ BEST TRADE GROUP MMC splits the expense of exposition stands and
             promoters, presenters, marketers, and designers.
           </p>
         </div>

@@ -7,7 +7,7 @@
           src="../assets/logo.svg"
           alt="ZZ BEST TRADE GROUP MMC logo"
         />
-        <p class="logo-name"><span>G</span>ROUP</p>
+        <p class="logo-name">BEST TRADE GROUP MMC</p>
       </router-link>
       <nav class="nav">
         <router-link @click="active = false" class="nav__item" to="/products"

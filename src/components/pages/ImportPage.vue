@@ -61,18 +61,19 @@
           companies on the market that assist with import and export, as well as
           organizing delivery to a warehouse. Professionals working in such
           firms rule out the potential of making a mistake in document
-          preparation or violating the law. ZZ group has already assisted
-          several enterprises in effectively importing and exporting their
-          products in UAE and China. Managers have set up a dependable system
-          involving manufacturers, sellers, buyers, and delivery providers to
-          accomplish this.
+          preparation or violating the law. ZZ BEST TRADE GROUP MMC has already
+          assisted several enterprises in effectively importing and exporting
+          their products in Azerbaijan and China. Managers have set up a
+          dependable system involving manufacturers, sellers, buyers, and
+          delivery providers to accomplish this.
         </p>
       </div>
     </section>
     <section class="footer">
       <h4 class="footer-title">Find out more about the service</h4>
       <p class="footer-subtitle">
-        ZZ Group will provide you with the comprehensive service you require.
+        ZZ BEST TRADE GROUP MMC will provide you with the comprehensive service
+        you require.
       </p>
       <Button
         @click="open('/contacts')"

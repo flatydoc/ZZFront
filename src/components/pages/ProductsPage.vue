@@ -2,10 +2,11 @@
   <div class="wrapper">
     <section class="head">
       <div class="info">
-        <h1 class="title">
+        <h2 class="title">
           PRODUCTS <br />
           ZZ GROUP
-        </h1>
+        </h2>
+        <p class="subtitle">BEST TRADE GROUP MMC</p>
         <a class="anchor-link button" href="#consumer_electronics"
           >Consumer electronics</a
         >
@@ -199,6 +200,14 @@ export default {
         color: #212121;
         font-size: 80px;
         font-weight: 700;
+      }
+
+      .subtitle {
+        margin-bottom: 30px;
+
+        color: rgba(33, 33, 33, 0.6);
+        font-size: 36px;
+        font-weight: 400;
       }
 
       .anchor-link {

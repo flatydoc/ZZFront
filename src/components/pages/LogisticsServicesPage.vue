@@ -28,7 +28,9 @@
     <img src="../../assets/logistics_page_2.png" />
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Logistics benefits with ZZ Group</h3>
+        <h3 class="chapter-title">
+          Logistics benefits with ZZ BEST TRADE GROUP MMC
+        </h3>
         <ul class="chapter-list">
           <li>
             Decreasing the costs of transporting and selling products to end
@@ -61,7 +63,7 @@
     </section>
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">Why ZZ Group</h3>
+        <h3 class="chapter-title">Why Us</h3>
       </div>
       <div class="chapter__block-right">
         <p>
@@ -70,9 +72,9 @@
           customs clearance.
         </p>
         <p>
-          ZZ Group handles all aspects of packing, labeling, storage, and
-          transportation of raw materials and goods, allowing business
-          management to concentrate on the product.
+          ZZ BEST TRADE GROUP MMC handles all aspects of packing, labeling,
+          storage, and transportation of raw materials and goods, allowing
+          business management to concentrate on the product.
         </p>
       </div>
     </section>
@@ -80,7 +82,8 @@
     <section class="footer">
       <h4 class="footer-title">Find out more about the service</h4>
       <p class="footer-subtitle">
-        ZZ Group will provide you with the comprehensive service you require.
+        ZZ BEST TRADE GROUP MMC will provide you with the comprehensive service
+        you require.
       </p>
       <Button
         @click="open('/contacts')"

@@ -58,9 +58,7 @@
     <img src="../../assets/supply_page_1.jpg" />
     <section class="chapter">
       <div class="chapter__block-left">
-        <h3 class="chapter-title">
-          ZZ Group supply chain optimization solution
-        </h3>
+        <h3 class="chapter-title">Our supply chain optimization solution</h3>
       </div>
       <div class="chapter__block-right">
         <p>
@@ -80,8 +78,9 @@
       <div class="chapter__block-left">
         <h3 class="chapter-title">Why Us</h3>
         <p>
-          ZZ Group has extensive procurement experience as well as the ability
-          to provide bespoke business solutions for non-standard demands.
+          ZZ BEST TRADE GROUP MMC has extensive procurement experience as well
+          as the ability to provide bespoke business solutions for non-standard
+          demands.
         </p>
       </div>
       <div class="chapter__block-right">
@@ -91,10 +90,10 @@
         <ul class="chapter-list">
           <li>Integration with the world's top e-commerce platforms.</li>
           <li>
-            ZZ Group's logistics solution has worked with e-commerce systems
-            such as Shopify, BigCommerce, eBay, Alibaba, Alipay, 3dCart, and
-            Ecwid for years. We enable customers to track logistics activities
-            in real time and monitor each stage.
+            ZZ BEST TRADE GROUP MMC logistics solution has worked with
+            e-commerce systems such as Shopify, BigCommerce, eBay, Alibaba,
+            Alipay, 3dCart, and Ecwid for years. We enable customers to track
+            logistics activities in real time and monitor each stage.
           </li>
           <li>
             Freight transportation and warehousing of any level of complexity.
@@ -106,11 +105,11 @@
           <li>
             Stock management service. Our experts are ready to assist you in
             arranging safe FTL and LTL freight transportation of even the most
-            delicate and unique goods in the quickest time feasible. ZZ Group
-            professionals will assist you in developing a well-functioning
-            supply chain and operational control of warehouse inventories,
-            taking into consideration seasonal swings and supply and demand
-            market trends.
+            delicate and unique goods in the quickest time feasible. ZZ BEST
+            TRADE GROUP MMC professionals will assist you in developing a
+            well-functioning supply chain and operational control of warehouse
+            inventories, taking into consideration seasonal swings and supply
+            and demand market trends.
           </li>
           <li>
             Express service delivered just-in-time. Our experts are ready to
@@ -118,17 +117,17 @@
             "just-in-time" supply chain.
           </li>
           <li>
-            Service for reverse logistics. ZZ Group is prepared to give our
-            customers with the option of returning defective products through a
-            global network of warehouses. We provide a simple return policy and
-            prompt replacement.
+            Service for reverse logistics. ZZ BEST TRADE GROUP MMC is prepared
+            to give our customers with the option of returning defective
+            products through a global network of warehouses. We provide a simple
+            return policy and prompt replacement.
           </li>
         </ul>
       </div>
     </section>
     <section class="benefits">
       <h4 class="benefits-title">
-        ZZ Group benefits for procurement services:
+        ZZ BEST TRADE GROUP MMC benefits for procurement services:
       </h4>
       <div class="benefits__wrapper">
         <div>
@@ -147,7 +146,8 @@
     <section class="footer">
       <h4 class="footer-title">Find out more about the service</h4>
       <p class="footer-subtitle">
-        ZZ Group will provide you with the comprehensive service you require.
+        ZZ BEST TRADE GROUP MMC will provide you with the comprehensive service
+        you require.
       </p>
       <Button
         @click="open('/contacts')"
