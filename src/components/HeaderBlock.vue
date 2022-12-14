@@ -180,6 +180,11 @@ export default {
 
       width: 24px;
       margin: 0 10px;
+
+      img {
+        width: 24px;
+        height: 18px;
+      }
     }
 
     &__item {
