@@ -11,7 +11,7 @@ import PrivacyPolicyPage from "../views/PrivacyPolicyPage.vue";
 
 const routes = [
   {
-    path: "/ZZFront/" || "/",
+    path: "/ZZFront/" && "/",
     name: "home",
     component: HomePage,
     meta: {
