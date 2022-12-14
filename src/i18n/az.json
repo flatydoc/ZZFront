@@ -10,6 +10,7 @@
   },
 
   "home_page": {
+    "subtitle": "Si̇zi̇n ti̇carət partnyorunuz",
     "desc": "Xidmətlərimiz, məhsullarınızı Azerbaijan alıb satmağınıza kömək edəcəkdir. Məhsullarımız Çindəki tam dövriyyəli istehsalat müəssisələrində istehsal olunur.",
     "contact_us": "Bizimlə əlaqə saxlayın",
     "our_services": "Xi̇dmətləri̇mi̇z",
@@ -171,7 +172,7 @@
   },
 
   "products_page": {
-    "title": "MƏHSULLAR ZZ GROUP",
+    "title": "MƏHSULLAR",
     "button": "Daha çoxunu əldə edin",
     "links": {
       "consumer_electronics": "Məişət elektronikası",

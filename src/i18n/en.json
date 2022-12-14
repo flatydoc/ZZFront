@@ -10,6 +10,7 @@
   },
 
   "home_page": {
+    "subtitle": "Your business partner",
     "desc": "Our services will assist you in trading your products in Azerbaijan. Our goods are produced in our own full-cycle manufacturing facilities in China.",
     "contact_us": "Contact us",
     "our_services": "Our services",
@@ -172,7 +173,7 @@
   },
 
   "products_page": {
-    "title": "PRODUCTS ZZ GROUP",
+    "title": "PRODUCTS",
     "button": "Get more",
     "links": {
       "consumer_electronics": "Consumer electronics",

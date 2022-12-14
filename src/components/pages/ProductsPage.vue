@@ -5,7 +5,7 @@
         <h2 class="title">
           {{ $t("products_page.title") }}
         </h2>
-        <p class="subtitle">BEST TRADE GROUP MMC</p>
+        <p class="subtitle">ZZ BEST TRADE GROUP MMC</p>
         <a class="anchor-link button" href="#consumer_electronics">{{
           $t("products_page.links.consumer_electronics")
         }}</a>

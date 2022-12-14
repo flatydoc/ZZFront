@@ -2,11 +2,8 @@
   <div class="wrapper">
     <section class="head">
       <div class="info">
-        <h1 class="title">
-          ZZ <br />
-          GROUP
-        </h1>
-        <p class="subtitle">BEST TRADE GROUP MMC</p>
+        <h1 class="title">ZZ BEST TRADE GROUP MMC</h1>
+        <p class="subtitle">{{ $t("home_page.subtitle") }}</p>
         <p class="desc">
           {{ $t("home_page.desc") }}
         </p>
@@ -196,7 +193,7 @@ export default {
         margin-bottom: 30px;
 
         color: #212121;
-        font-size: 120px;
+        font-size: 80px;
         font-weight: 700;
       }
 
@@ -319,7 +316,7 @@ export default {
       .info {
         padding: 120px 240px;
         .title {
-          font-size: 160px;
+          font-size: 120px;
         }
 
         .subtitle {
@@ -377,7 +374,7 @@ export default {
         .title {
           margin-bottom: 20px;
 
-          font-size: 90px;
+          font-size: 72px;
         }
 
         .subtitle {
@@ -422,7 +419,7 @@ export default {
         text-align: center;
         padding: 20px 40px;
         .title {
-          font-size: 70px;
+          font-size: 54px;
         }
 
         .subtitle {
@@ -456,7 +453,7 @@ export default {
     .head {
       .info {
         .title {
-          font-size: 64px;
+          font-size: 36px;
         }
 
         .subtitle {
