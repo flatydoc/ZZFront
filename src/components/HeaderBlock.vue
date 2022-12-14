@@ -169,6 +169,7 @@ export default {
 
   .nav {
     display: flex;
+    align-items: center;
 
     .router-link-active {
       color: var(--primary-color);
@@ -178,12 +179,21 @@ export default {
       display: inline-flex;
       align-items: center;
 
-      width: 24px;
       margin: 0 10px;
+
+      border: 1px solid #fff;
+      border-radius: 4px;
+      overflow: hidden;
+
+      cursor: pointer;
 
       img {
         width: 24px;
         height: 18px;
+      }
+
+      &:hover {
+        transform: scale(110%);
       }
     }
 
