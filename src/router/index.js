@@ -20,15 +20,6 @@ const routes = [
     },
   },
   {
-    path: "/ZZFront/",
-    name: "home",
-    component: HomePage,
-    meta: {
-      layoutClass: "home",
-      name: "ZZ GROUP",
-    },
-  },
-  {
     path: "/products",
     name: "products",
     component: ProductsPage,
